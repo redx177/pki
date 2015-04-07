@@ -1,7 +1,4 @@
-workstation-in-the-cloud
-========================
+# Phishing and Social Engineering
 
-ZHAW Seminar - Cloud as Business
-by Simon Lang, Michael Hadorn
-
-Further information: https://drive.google.com/folderview?id=0B_XYfa9OdzJsYnZXeUt6NXVsQTg&usp=sharing
+    ZHAW Seminar - Phishing and Social Engineering  
+     by Simon Lang
