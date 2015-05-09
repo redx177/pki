@@ -9,16 +9,39 @@
     - Quellen
     - BasKet: https://launchpad.net/basket/
     - Dradis: http://freecode.com/projects/dradis
-- Kommunikationsmodell. Wie sprechen wir die Angegriffenen an
-    - Quelle
-    - Kanal
-    - Botschaft
-    - Empfänger
-    - Feedback
-    - Bsp
-        - Per Email
-        - Per USB Stick
+- Kommunikation
+    - Kommunikationsmodell. Wie sprechen wir die Angegriffenen an
+        - Quelle
+        - Kanal
+        - Botschaft
+        - Empfänger
+        - Feedback
+        - Bsp
+            - Per Email
+            - Per USB Stick
+    - __4 Ohren Modell__ :exclamation::exclamation::exclamation:
 - Elizitieren (Wie entlocke ich jemandem eine Info)
+    - Grundregeln
+        - Seien sie naütlrich
+        - Schulen sie sich selbst
+        - Seien sie nicht gierig
+        - Beispiel Cesar Millan
+        - "Bei diesem Typ kriege ich echt Gänsehaut"
+        - "Sie wirkt total nett"
+        - Energie muss stimmen. -> "Mentales Make-up"
+        - Wenn man kein Mathematiker/Chemiker ist, nicht als solches ausgeben
+        - Wer dies verinnerlicht verändert die Art, wie er im Alltag mit Leuten spricht.
+    - Techniken
+        - Ans Ego einer Person appellieren
+        - Gegenseitiges Interesse bekunden
+        - Eine absichtlich falsche Aussage treffen
+        - Informationen freiwillig weitergeben
+        - Kenntnisse unterstellen
+        - Die Wirkung von Alkohol
+    - Preloading :exclamation::exclamation::exclamation:
+        - Vorteil durch Preloading verschaffen
+        - Wie sich jemand fühlt beeinflussen
+        - Bsp: Kino, Plakate von Filmen und Essen. Trailer & Intro
 - Pretexting (In eine andere Haut schlüpfen)
 - Weiteres
     - Mikroexpressionen (Gesichtsausrdrücke deuten)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.19)  28 APR 2015 23:17
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.19)  9 MAY 2015 15:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4064,11 +4064,72 @@ text indent by \l@... (toc, 1):  25.18501pt
 number indent by parent (toc, 1):  12.59247pt
 text indent calculated (toc, 1): 19.46661pt
 number indent calculated (toc, 1): 12.59247pt
+number indent by \l@... (toc, 2):  41.61002pt
+text indent by \l@... (toc, 2):  35.03995pt
+number indent by parent (toc, 2):  32.05908pt
+text indent calculated (toc, 2): 27.98325pt
+number indent calculated (toc, 2): 32.05908pt
+number indent by \l@... (toc, 2):  41.61002pt
+text indent by \l@... (toc, 2):  35.03995pt
+number indent by parent (toc, 2):  32.05908pt
+text indent calculated (toc, 2): 27.98325pt
+number indent calculated (toc, 2): 32.05908pt
+number indent by \l@... (toc, 1):  16.42499pt
+text indent by \l@... (toc, 1):  25.18501pt
+number indent by parent (toc, 1):  12.59247pt
+text indent calculated (toc, 1): 19.46661pt
+number indent calculated (toc, 1): 12.59247pt
+number indent by \l@... (toc, 2):  41.61002pt
+text indent by \l@... (toc, 2):  35.03995pt
+number indent by parent (toc, 2):  32.05908pt
+text indent calculated (toc, 2): 27.98325pt
+number indent calculated (toc, 2): 32.05908pt
+number indent by \l@... (toc, 2):  41.61002pt
+text indent by \l@... (toc, 2):  35.03995pt
+number indent by parent (toc, 2):  32.05908pt
+text indent calculated (toc, 2): 27.98325pt
+number indent calculated (toc, 2): 32.05908pt
+number indent by \l@... (toc, 2):  41.61002pt
+text indent by \l@... (toc, 2):  35.03995pt
+number indent by parent (toc, 2):  32.05908pt
+text indent calculated (toc, 2): 27.98325pt
+number indent calculated (toc, 2): 32.05908pt
+number indent by \l@... (toc, 1):  16.42499pt
+text indent by \l@... (toc, 1):  25.18501pt
+number indent by parent (toc, 1):  12.59247pt
+text indent calculated (toc, 1): 19.46661pt
+number indent calculated (toc, 1): 12.59247pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  16.42499pt
 number indent by parent (toc, 0):  0.0pt
 text indent calculated (toc, 0): 12.59247pt
 number indent calculated (toc, 0): 0.0pt
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+
+LaTeX Font Warning: Font shape `T1/lmss/m/b' undefined
+(Font)              using `T1/lmss/m/n' instead on input line 33.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 33.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 33.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 33.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 33.
+\openout3 = `pki.mw'.
+
+[1] (./pki.mw)
+
+
+
+
+
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  16.42499pt
 number indent by parent (toc, 0):  0.0pt
@@ -4081,15 +4142,7 @@ text indent calculated (toc, 0): 12.59247pt
 number indent calculated (toc, 0): 0.0pt
 )
 \tf@toc=\write13
- (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-
-LaTeX Font Warning: Font shape `T1/lmss/m/b' undefined
-(Font)              using `T1/lmss/m/n' instead on input line 178.
+Package cleveref Info: loaded `ngerman' language definitions on input line 178.
 
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 178.
@@ -4101,16 +4154,17 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 178.
 \openout3 = `pki.mw'.
 
-[1] (./pki.mw)
-
-
-
-
+ [2] (./pki.mw)
 Package tocbasic Info: character protrusion at lof deactivated on input line 17
 9.
  (./pki.lof
 Package cleveref Info: loaded `ngerman' language definitions on input line 3.
 
+number indent by \l@... (lof, 1):  16.42499pt
+text indent by \l@... (lof, 1):  25.18501pt
+number indent by parent (lof, 1):  16.42499pt
+text indent calculated (lof, 1): 19.46661pt
+number indent calculated (lof, 1): 16.42499pt
 number indent by \l@... (lof, 1):  16.42499pt
 text indent by \l@... (lof, 1):  25.18501pt
 number indent by parent (lof, 1):  16.42499pt
@@ -4143,7 +4197,7 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 180.
 \openout3 = `pki.mw'.
 
- [2] (./pki.mw)
+ [3] (./pki.mw)
 
 
 
@@ -4164,7 +4218,7 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 195.
 \openout3 = `pki.mw'.
 
- [3] (./pki.mw)
+ [4] (./pki.mw)
 
 
 
@@ -4182,7 +4236,7 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 195.
 \openout3 = `pki.mw'.
 
- [4] (./pki.mw)
+ [5] (./pki.mw)
 
 
 (./pki.syi) (./pki.gls
@@ -4201,7 +4255,9 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 29.
 \openout3 = `pki.mw'.
 
-[5] (./pki.mw)
+[6] (./pki.mw)
+
+\openout3 = `pki.mw'.
 
 )
 Package cleveref Info: loaded `ngerman' language definitions on input line 197.
@@ -4216,9 +4272,7 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 197.
 \openout3 = `pki.mw'.
 
- [6] (./pki.mw)
-\openout3 = `pki.mw'.
-
+ [7] (./pki.mw)
 \openout3 = `pki.mw'.
 
 \c@pagesLTS.roman.1.local.count=\count519
@@ -4410,8 +4464,14 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 26.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 26.
+pdfTeX warning (ext4): destination with the same identifier (name{cite.0:f:1:hu
+man_hacking}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.27 ... von Aktivitäten\footcite{human_hacking} 
+                                                  welche mit Social Engineer...
 LaTeX Font Info:    Try loading font information for TS1+lmr on input line 30.
- (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
+(/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package cleveref Info: loaded `ngerman' language definitions on input line 53.
@@ -4438,14 +4498,14 @@ Package babel Info: Redefining ngerman shorthand "~
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/se-iso-8859-1.def
 File: se-iso-8859-1.def 2011/12/02 v1.10 stringenc: ISO-8859-1
 )
-<images/shredded-paper.jpg, id=190, 616.704pt x 462.528pt>
+<images/shredded-paper.jpg, id=212, 616.704pt x 462.528pt>
 File: images/shredded-paper.jpg Graphic file (type jpg)
 
 <use images/shredded-paper.jpg>
 Package pdftex.def Info: images/shredded-paper.jpg used on input line 67.
 (pdftex.def)             Requested size: 96.0274pt x 72.01575pt.
 
-<images/reassembled-shredded-paper.jpg, id=191, 401.5pt x 301.125pt>
+<images/reassembled-shredded-paper.jpg, id=213, 401.5pt x 301.125pt>
 File: images/reassembled-shredded-paper.jpg Graphic file (type jpg)
 
 <use images/reassembled-shredded-paper.jpg>
@@ -4453,7 +4513,7 @@ Package pdftex.def Info: images/reassembled-shredded-paper.jpg used on input li
 ne 73.
 (pdftex.def)             Requested size: 96.0274pt x 72.01875pt.
 
-<images/two-way-shredded-paper.jpg, id=192, 1606.0pt x 1071.00125pt>
+<images/two-way-shredded-paper.jpg, id=214, 1606.0pt x 1071.00125pt>
 File: images/two-way-shredded-paper.jpg Graphic file (type jpg)
 
 <use images/two-way-shredded-paper.jpg>
@@ -4478,7 +4538,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 90.
 
-<images/basket.png, id=198, 879.285pt x 642.4pt>
+<images/basket.png, id=220, 879.285pt x 642.4pt>
 File: images/basket.png Graphic file (type png)
  <use images/basket.png>
 Package pdftex.def Info: images/basket.png used on input line 99.
@@ -4497,7 +4557,7 @@ Package babel Info: Redefining ngerman shorthand "~
 
 
 [8 <./images/two-way-shredded-paper.jpg> <./images/basket.png>] (./pki.mw)
-<images/dradis.png, id=205, 805.0075pt x 676.5275pt>
+<images/dradis.png, id=227, 805.0075pt x 676.5275pt>
 File: images/dradis.png Graphic file (type png)
  <use images/dradis.png>
 Package pdftex.def Info: images/dradis.png used on input line 110.
@@ -4506,6 +4566,125 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 115.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 115.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 123.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 123.
+Package cleveref Info: loaded `ngerman' language definitions on input line 128.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 128.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 128.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 128.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 128.
+\openout3 = `pki.mw'.
+
+
+[9 <./images/dradis.png>] (./pki.mw)
+<images/shannon-weaver-model.png, id=233, 703.62875pt x 420.57124pt>
+File: images/shannon-weaver-model.png Graphic file (type png)
+
+<use images/shannon-weaver-model.png>
+Package pdftex.def Info: images/shannon-weaver-model.png used on input line 132
+.
+(pdftex.def)             Requested size: 341.43442pt x 204.07948pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 148.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 148.
+Package cleveref Info: loaded `ngerman' language definitions on input line 153.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 153.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 153.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 153.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 153.
+\openout3 = `pki.mw'.
+
+ [10 <./images/shannon-weaver-model.png>]
+(./pki.mw)
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 167.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 167.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 172.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 172.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\footcite' on input line 172.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 172.
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 181.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 181.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 181.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 181.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 181.
+\openout3 = `pki.mw'.
+
+[11] (./pki.mw)
+\openout3 = `pki.mw'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--208
+
+ []
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 209.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 209.
+Package cleveref Info: loaded `ngerman' language definitions on input line 213.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 213.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 213.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 213.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 213.
+\openout3 = `pki.mw'.
+
+[12] (./pki.mw)
+\openout3 = `pki.mw'.
+
+\openout3 = `pki.mw'.
+
+\openout3 = `pki.mw'.
+
+\openout3 = `pki.mw'.
+
+\openout3 = `pki.mw'.
+
+\openout3 = `pki.mw'.
+
+\openout3 = `pki.mw'.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 224.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 224.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 233.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 233.
 )
 Package cleveref Info: loaded `ngerman' language definitions on input line 204.
 
@@ -4519,8 +4698,11 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 204.
 \openout3 = `pki.mw'.
 
+ [13] (./pki.mw)
+\openout3 = `pki.mw'.
 
-[9 <./images/dradis.png>] (./pki.mw)
+\openout3 = `pki.mw'.
+
 \openout2 = `content/4-Discussion.aux'.
 
  (./content/4-Discussion.tex
@@ -4540,7 +4722,7 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 205.
 \openout3 = `pki.mw'.
 
- [10] (./pki.mw)
+ [14] (./pki.mw)
 
 
 
@@ -4564,10 +4746,14 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 206.
 \openout3 = `pki.mw'.
 
- [11] (./pki.mw)
+ [15] (./pki.mw)
 
 
 
+
+\openout3 = `pki.mw'.
+
+\openout3 = `pki.mw'.
 
 \openout3 = `pki.mw'.
 
@@ -4611,7 +4797,7 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 252.
 \openout3 = `pki.mw'.
 
- [12] (./pki.mw)
+ [16] (./pki.mw)
 
 
 
@@ -4662,7 +4848,7 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 258.
 
 
-Package pageslts Info: Total number of pages is even.
+Package pageslts Info: Total number of pages is odd.
 
 
 (./pki.aux (./content/0-Title.aux)
@@ -4731,6 +4917,22 @@ Package cleveref Info: loaded `ngerman' language definitions on input line 39.
 \openout3 = `pki.mw'.
 
 ) (./content/3-Contribution.aux
+\openout3 = `pki.mw'.
+
+\openout3 = `pki.mw'.
+
+\openout3 = `pki.mw'.
+
+\openout3 = `pki.mw'.
+
+\openout3 = `pki.mw'.
+
+\openout3 = `pki.mw'.
+
+\openout3 = `pki.mw'.
+
+\openout3 = `pki.mw'.
+
 \openout3 = `pki.mw'.
 
 \openout3 = `pki.mw'.
@@ -5172,6 +5374,7 @@ images/reassembled-shredded-paper.jpg
 images/two-way-shredded-paper.jpg
 images/basket.png
 images/dradis.png
+images/shannon-weaver-model.png
 content/4-Discussion.tex
 content/5-Summary.tex
      pki.ind
@@ -5204,13 +5407,13 @@ Package logreq Info: Writing requests to 'pki.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 61316 strings out of 493304
- 1268516 string characters out of 6139870
- 1758743 words of memory out of 5000000
- 62856 multiletter control sequences out of 15000+600000
- 142227 words of font info for 198 fonts, out of 8000000 for 9000
+ 61450 strings out of 493304
+ 1271104 string characters out of 6139870
+ 1761016 words of memory out of 5000000
+ 62953 multiletter control sequences out of 15000+600000
+ 145413 words of font info for 204 fonts, out of 8000000 for 9000
  963 hyphenation exceptions out of 8191
- 65i,13n,101p,10438b,2158s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 65i,13n,101p,10438b,3107s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
 ips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/shar
 e/texmf/fonts/enc/dvips/lm/lm-rm.enc}</usr/share/texmf/fonts/type1/public/lm/lm
@@ -5222,12 +5425,13 @@ share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public
 /lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri9.pfb></usr/share/te
 xmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lm
 ss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/f
-onts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.
-pfb></usr/share/texmf/fonts/type1/public/lm/lmtt9.pfb>
-Output written on pki.pdf (20 pages, 3264442 bytes).
+onts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.p
+fb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/t
+ype1/public/lm/lmtt9.pfb>
+Output written on pki.pdf (25 pages, 3325534 bytes).
 PDF statistics:
- 390 PDF objects out of 1000 (max. 8388607)
- 327 compressed objects within 4 object streams
- 79 named destinations out of 1000 (max. 500000)
- 59182 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 469 PDF objects out of 1000 (max. 8388607)
+ 399 compressed objects within 4 object streams
+ 94 named destinations out of 1000 (max. 500000)
+ 59755 words of extra memory for PDF output out of 61914 (max. 10000000)
 
