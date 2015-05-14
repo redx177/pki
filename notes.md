@@ -43,6 +43,7 @@
         - Wie sich jemand fühlt beeinflussen
         - Bsp: Kino, Plakate von Filmen und Essen. Trailer & Intro
 - Pretexting (In eine andere Haut schlüpfen)
+    - 
 - Weiteres
     - Mikroexpressionen (Gesichtsausrdrücke deuten)
     - Interviews / Vernehmungen
