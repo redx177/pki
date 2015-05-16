@@ -43,7 +43,27 @@
         - Wie sich jemand fühlt beeinflussen
         - Bsp: Kino, Plakate von Filmen und Essen. Trailer & Intro
 - Pretexting (In eine andere Haut schlüpfen)
-    - 
+    - bsp: Top Banker ist Briefmakren Fan. Er kann mit diesem Thema gelockt werden (p113)
+    - nicht übertreiben. Schon erwähnt beim Elizitieren (p115)
+    - Gewisse Pretexte erfordern mehr wissen als andere (Briefmarkensammler vs Atomforscher) (p115)
+    - Dialekte & Redensarten üben (p117)
+        - Brithischer Akzekt sympathischer als Amerikanischer
+        - Wenn Dialekt nicht perfekt, besser sein lassen
+    - Je einfacher der Pretext, desto besser (p121)
+        - Wenn zu komplex, kann man nicht auf alle fragen **konsistent** antworten.
+        - Mann kann ihn nicht merken
+    - Pretext sollte spontan wirken (p125)
+        - nicht zu viel nachdenken. Dies macht Angst. bsp. 10m Sprungbrett
+        - Sich selbst nicht zu ernst nehmen. Dies macht auch Angst
+        - Das relevante lernen. Nicht alles.
+        - Zuhören. Es generiert Abneigung, wenn man nicht auf das eingeht, was das gegenüber sagt
+    - Üben!! (p125)
+    - Logischer Schluss / Anschlussauftrag erteilen
+        - Menschen wollen gesagt bekommen, wass sie tun sollen. z.B. ein Arzt sagt nicht einafch nach der Untersuchung: Bis in 4 Wochen. Er soll sagen was er tut und was der Patient zu tun hat.
+        - Auftrag muss zum Pretext passen.
+        - Möchte man informationen, dann: "Darf ich sie am Monatag deswegen nochmals Konataktieren". Dies ist besser als "Kotaktieren sie mich am Montag deswegen". Denn wenn die Person es nicht macht ist der Angriff misslungen
+    - Telefon nutzen (p119)
+        - Persönlicher als das Internet
 - Weiteres
     - Mikroexpressionen (Gesichtsausrdrücke deuten)
     - Interviews / Vernehmungen

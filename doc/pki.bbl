@@ -16,6 +16,35 @@
   {}
 \endgroup
 
+\entry{5_Ways_to_Tell_Your_Man_is_Lying_2015-05-16}{online}{}
+  \field{sortinit}{5}
+  \field{title}{5 Ways to Tell Your Man is Lying}
+  \verb{url}
+  \verb http://www.kfm.co.za/Articles/2014/06/24/5-ways-to-tell-your-man-is-lyi
+  \verb ng
+  \endverb
+  \verb{file}
+  \verb :./references/5 Ways to Tell Your Man is Lying.html:html
+  \endverb
+  \field{urlday}{16}
+  \field{urlmonth}{05}
+  \field{urlyear}{2015}
+\endentry
+
+\entry{Anger_by_kwerfeldein_on_DeviantArt_2015-05-16}{online}{}
+  \field{sortinit}{A}
+  \field{title}{Anger by kwerfeldein on DeviantArt}
+  \verb{url}
+  \verb http://kwerfeldein.deviantart.com/art/Anger-102986132
+  \endverb
+  \verb{file}
+  \verb :./references/Anger by kwerfeldein on DeviantArt.html:html
+  \endverb
+  \field{urlday}{16}
+  \field{urlmonth}{05}
+  \field{urlyear}{2015}
+\endentry
+
 \entry{Beispiel_fr_einen_Social_Engineering_Angriff_Social_Engineering_-_Manipulation_2015-04-26}{online}{}
   \field{sortinit}{B}
   \field{title}{Beispiel für einen Social Engineering Angriff | Social
@@ -30,6 +59,38 @@
   \endverb
   \field{urlday}{26}
   \field{urlmonth}{04}
+  \field{urlyear}{2015}
+\endentry
+
+\entry{Ekman_-_Facial_Expressions_Foreign_Language_Flashcards_-_Cramcom_2015-05-16}{online}{}
+  \field{sortinit}{E}
+  \field{title}{Ekman - Facial Expressions Foreign Language Flashcards -
+  Cram.com}
+  \verb{url}
+  \verb http://www.cram.com/flashcards/ekman-facial-expressions-2447700
+  \endverb
+  \verb{file}
+  \verb :./references/Ekman - Facial Expressions Foreign Language Flashcards -
+  \verb Cram.com.html:html
+  \endverb
+  \field{urlday}{16}
+  \field{urlmonth}{05}
+  \field{urlyear}{2015}
+\endentry
+
+\entry{Facial_expression_project_-_laughing_girls__Flickr_-_Photo_Sharing_2015-05-16}{online}{}
+  \field{sortinit}{F}
+  \field{title}{Facial expression project - laughing girls | Flickr - Photo
+  Sharing!}
+  \verb{url}
+  \verb https://www.flickr.com/photos/daisykeeling/5462251889
+  \endverb
+  \verb{file}
+  \verb :./references/Facial expression project - laughing girls | Flickr - Pho
+  \verb to Sharing!.html:html
+  \endverb
+  \field{urlday}{16}
+  \field{urlmonth}{05}
   \field{urlyear}{2015}
 \endentry
 
@@ -50,6 +111,60 @@
   \field{booktitle}{Die Kunst des Human Hacking}
   \field{title}{Die Kunst des Human Hacking}
   \field{year}{2011}
+\endentry
+
+\entry{Journal_of_Targeting_Measurement_and_Analysis_for_Marketing_2015-05-14}{online}{}
+  \field{sortinit}{J}
+  \field{title}{Journal of Targeting, Measurement and Analysis for Marketing -
+  The varying influence of spokesperson's accent in communication
+  effectiveness: A comparative study in two different regions of Mexico}
+  \verb{url}
+  \verb http://www.palgrave-journals.com/jt/journal/v19/n1/full/jt20115a.html
+  \endverb
+  \verb{file}
+  \verb :./references/Journal of Targeting, Measurement and Analysis for Market
+  \verb ing - The varying influence of spokesperson's accent in communication e
+  \verb ffectiveness: A comparative study in two different regions of Mexico.ht
+  \verb ml:html
+  \endverb
+  \field{urlday}{14}
+  \field{urlmonth}{05}
+  \field{urlyear}{2015}
+\endentry
+
+\entry{Mimik_Gesichtserkennung_Spiegelneuron_und_Amygdala_2015-05-16}{online}{}
+  \field{sortinit}{M}
+  \field{title}{Mimik: Gesichtserkennung, Spiegelneuron und Amygdala}
+  \verb{url}
+  \verb https://www.dasgehirn.info/handeln/mimik-gestik-koerpersprache/gesichte
+  \verb r-lesen-4124
+  \endverb
+  \verb{file}
+  \verb :./references/Mimik: Gesichtserkennung, Spiegelneuron und Amygdala.html
+  \verb :html
+  \endverb
+  \field{urlday}{16}
+  \field{urlmonth}{05}
+  \field{urlyear}{2015}
+\endentry
+
+\entry{The_Effect_of_Perceived_Regional_Accents_on_Individual_Economic_Behavior_2015-05-14}{online}{}
+  \field{sortinit}{P}
+  \field{title}{PLOS ONE: The Effect of Perceived Regional Accents on
+  Individual Economic Behavior: A Lab Experiment on Linguistic Performance,
+  Cognitive Ratings and Economic Decisions}
+  \verb{url}
+  \verb http://journals.plos.org/plosone/article?id=10.1371/journal.pone.011347
+  \verb 5
+  \endverb
+  \verb{file}
+  \verb :./references/PLOS ONE: The Effect of Perceived Regional Accents on Ind
+  \verb ividual Economic Behavior: A Lab Experiment on Linguistic Performance,
+  \verb Cognitive Ratings and Economic Decisions.html:html
+  \endverb
+  \field{urlday}{14}
+  \field{urlmonth}{05}
+  \field{urlyear}{2015}
 \endentry
 
 \entry{Social_Engineering_Wenn_die_Gefahr_im_Anzug_kommt__t3n_2015-04-26}{online}{}
