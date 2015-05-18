@@ -182,6 +182,20 @@
   \field{urlyear}{2015}
 \endentry
 
+\entry{Versteckte_Botschaften_in_Logos_2015-05-16}{online}{}
+  \field{sortinit}{V}
+  \field{title}{Versteckte Botschaften in Logos}
+  \verb{url}
+  \verb http://www.logoprofi.com/blog/2012/06/versteckte-botschaften-in-logos/
+  \endverb
+  \verb{file}
+  \verb :./references/Versteckte Botschaften in Logos.html:html
+  \endverb
+  \field{urlday}{16}
+  \field{urlmonth}{05}
+  \field{urlyear}{2015}
+\endentry
+
 \lossort
 \endlossort
 

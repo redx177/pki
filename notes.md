@@ -66,20 +66,22 @@
         - Persönlicher als das Internet
 - Weiteres
     - Mikroexpressionen (Gesichtsausrdrücke deuten)
-    - Interviews / Vernehmungen
+    - Interviews / Vernehmungen:exclamation::exclamation::exclamation:
         - Körpersprache deuten
         - ...
-    - Gestikulieren
+    - Gestikulieren:exclamation::exclamation::exclamation:
         - Gestiken von Land zu Land unterschiedlich
-    - Rapport ("einen guten draht haben")
-    - Meschlicher Pufferüberlauf
+    - Rapport ("einen guten draht haben"):exclamation::exclamation::exclamation:
+    - Meschlicher Pufferüberlauf:exclamation::exclamation::exclamation:
 - Beinflussung / Überredung
-    - Reziprozität (Gegenseitigkeit/Wechselwirkung)
+    - Reziprozität (Gegenseitigkeit/Wechselwirkung):exclamation::exclamation::exclamation:
         - Wenn ich jemand die Türe offen halte, macht er das mir auch.
     - Framing (Pfeil im Fedex logo, smily im amazon logo, etc.)
-    - Manipulation
+        - Alltag: Fleisch ist 75% mager oder 25% fett. 75% mager hört sich besser an
+        - Politik: Schuldenübernahme vs "Wirtschaftlicher Impuls".
+    - Manipulation:exclamation::exclamation::exclamation:
 - Tools
-    - Lockpicking
+    - Lockpicking:exclamation::exclamation::exclamation:
     - Kameras & Aufzeichnungsgeräte
     - GPS Tracker
     - Online Tools
