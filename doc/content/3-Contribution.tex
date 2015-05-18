@@ -432,6 +432,83 @@ Der Wert \textit{0NXXNXXXXX} ist ein Matching auf die eingegebene Telefonnummer.
 
 \textit{SetCallerID} ist die Telefonummer, welche gespoofed werden soll. Hier ist die Telefonnummer einer Credit Suisse Filiale angegeben.
 
-Der Wert in \textit{Dial} gibt an, dass das \textit{IAX2} Protokoll verwendet werden soll in der \textit{VoicePulse}-Verbindung, welche weiter oben definiert wurde. \textit{\$\{EXTEN\} ist ein Platzhalter für die gewählte Telefonnummer.
+Der Wert in \textit{Dial} gibt an, dass das \textit{IAX2} Protokoll verwendet werden soll in der \textit{VoicePulse}-Verbindung, welche weiter oben definiert wurde. \textit{\$\{EXTEN\}} ist ein Platzhalter für die gewählte Telefonnummer.
 
-Mit diesem Setup kann nun über Asterisk ein Telefonat gestartet werden über die Telefonnummer der Credit Suisse. Moderne Telefone gehen direkt ins Internet und zeigen an, dass der Absender die Credit Suisse ist.
+Mit diesem Setup kann nun über Asterisk ein Telefonat gestartet werden über die Telefonnummer der Credit Suisse. Moderne Telefone gehen direkt ins Internet und zeigen an, dass der Absender die Credit Suisse ist\footcite{Caller_ID_Spoofing_w_Asterisk_Allan_Feid_2015-05-18}.
+
+\subsubsection{E-Mail Absender}
+Zum versenden von E-Mails wird das \gls{glos:smtpLabel}-Protokoll verwendet. Die Schwachstelle besteht darin, dass keine Überprüfung der Absenderandresse vorgesehen ist. Eine gespoofde E-Mail kann vorlgendermassen versendet werden:
+\begin{center}
+    \begin{tabular}{ | p{5cm} | p{2cm} | p{6cm} |}
+	    \hline
+	    
+	    \textbf{Client} & 
+	    \textbf{Server} & 
+	    \textbf{Kommentar} \\ \hline
+		
+		telnet mail.example.com 25 &  
+		& 
+		Client stellt Verbindung zum Server her \\ \hline
+		
+		& 220 service ready & Server ist bereit\\ \hline
+		
+		HELO foobar.example.net &  
+		& 
+		Client nennt seinen Namen\\ \hline
+		
+		& 250 OK & Server bestätigt\\ \hline
+		
+		MAIL FROM:<sender@example.org> &  
+		& 
+		\parbox[t]{6cm}{Client gibt Absenderadresse an. \\ Diese wird dem Empfänger nicht angezeigt, die Antwort geht jedoch hierhin.} \\ \hline
+		
+		& 250 OK & Server bestätigt\\ \hline
+		
+		RCPT TO:<receiver@example.com> &  
+		& 
+		\parbox[t]{6cm}{Client gibt Empfängeradresse an. \\ Diese wird dem Empfänger nicht angezeigt.} \\ \hline
+		
+		& 250 OK & Server bestätigt\\ \hline
+		
+		DATA &  
+		& 
+		Client gibt an, dass nun der Inhalt der E-Mail folgt\\ \hline
+		
+		& 354 start mail input & Server bestätigt\\ \hline
+		
+		\parbox[t]{5cm}{From: <sender@example.org>\\
+		To: <receiver@example.com>\\
+		Subject: Testmail\\
+		Date: Thu, 26 Oct 2006 13:10:50 +0200\\
+		\\
+		Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.\\
+		.} &  
+		& 
+		\parbox[t]{6cm}{
+		\textit{From}: Absenderadresse, welche dem Empfänger angezeigt wird.\\
+		\textit{To}: Empfängeradresse, welche dem Empfänger angezeigt wird.\\
+		\textit{Subject}: Betreff der E-Mail\\
+		\textit{Date}: Datum\\
+		\\
+		Inhalt der Nachricht\\
+		Der Punkt am Ende zeigt an, dass die Nachricht fertig ist.
+		}\\ \hline
+				
+		& 250 OK & Server bestätigt\\ \hline
+		
+		QUIT &  & Client zeigt dass er fertig ist.\\ \hline
+
+		& 221 closing channel & Server kündigt Trennung an.\\ \hline
+    \end{tabular}
+\end{center}
+
+Die Problematik besteht darin, dass die Adressen in \textit{MAIL FROM} und \textit{RCPT To} für das versenden benutzt werden, jedoch \textit{From} und \textit{To} dem Benutzer angezeigt werden. Das Protokoll lässt diese Diskrepanz standardmässig zu.
+
+Es gibt durchaus Einsatzgebiete, wo diese verhalten erwünscht ist. Zum Beispiel wenn man in der Universität einen einheitlichen Mailserver verwendet, jedoch verschiedene E-Mail-Adressen darüber verarbeitet werden.
+
+Es gibt diverse Massnahmen um dies entgegenzuwirken. Die effektivste ist die Signierung der E-Mail mittels Zertifikaten. Dies benötigt jedoch eine Interaktion von den Usern weshalb sie nicht sehr verbreitet ist. Öfters benutzt werden Systeme, welche auf den Mailservern einterichtet werden. Unter anderem folgende:
+\begin{itemize}
+\item \Gls{spfLabel}: Über zusätzliche \gls{glos:dnsLabel}-Einträge (sogenannten TXT-Records) werden Computer definiert, welche für das versenden von E-Mails authorisiert sind.
+\item \Gls{dkimLabel}: Die E-Mails werden mit dem private Key des senders versehen. Der Empfänger verifiziert die Signatur mit einem public Key aus dem \gls{glos:dnsLabel}-Eintrag (TXT-Records) der Domain. Ist die verifzierung der Signatur nicht möglich kann die E-Mail verworfen werden.
+\item \Gls{dmarcLabel}: Ist eine Verbindung von \Gls{spfLabel} und \Gls{dkimLabel}. Zusätzlich ist ein Modus, welcher vorgibt, dass die Domain der Absenderadresse exakt übereinstimmen muss, oder auch eine Subdomain enthalten darf. Es kann auch noch angegeben werden, wie mit einer E-Mail umgegangen werden muss, wenn die Überprüfung fehlschlägt. Es kann \textit{none}, \textit{quarantine} oder \textit{reject} definiert werden.
+\end{itemize}

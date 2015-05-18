@@ -9,14 +9,19 @@
 \glossaryentry{VOIP?\glossentry{glos:voipLabel}|setentrycounter[]{page}\glsnumberformat}{18}
 \glossaryentry{VOIP?\glossentry{glos:voipLabel}|setentrycounter[]{page}\glsnumberformat}{18}
 \glossaryentry{VOIP?\glossentry{glos:voipLabel}|setentrycounter[]{page}\glsnumberformat}{18}
-\glossaryentry{RFID?\glossentry{glos:rfidLabel}|setentrycounter[]{page}\glsnumberformat}{21}
-\glossaryentry{VOIP?\glossentry{glos:voipLabel}|setentrycounter[]{page}\glsnumberformat}{21}
-\glossaryentry{PUE?\glossentry{glos:pueLabel}|setentrycounter[]{page}\glsnumberformat}{21}
-\glossaryentry{Ausfallsicherheit?\glossentry{glos:failureSafetyLabel}|setentrycounter[]{page}\glsnumberformat}{21}
-\glossaryentry{Load Balancing?\glossentry{glos:loadBalancingLabel}|setentrycounter[]{page}\glsnumberformat}{21}
-\glossaryentry{Thin Client?\glossentry{glos:thinClientLabel}|setentrycounter[]{page}\glsnumberformat}{21}
-\glossaryentry{Home Office?\glossentry{glos:homeOfficeLabel}|setentrycounter[]{page}\glsnumberformat}{21}
-\glossaryentry{Virtual Private Netzwork?\glossentry{glos:vpnLabel}|setentrycounter[]{page}\glsnumberformat}{21}
-\glossaryentry{on-premise?\glossentry{glos:onPremiseLabel}|setentrycounter[]{page}\glsnumberformat}{21}
-\glossaryentry{I/O-Device?\glossentry{glos:ioDeviceLabel}|setentrycounter[]{page}\glsnumberformat}{21}
-\glossaryentry{Cloud?\glossentry{glos:cloudLabel}|setentrycounter[]{page}\glsnumberformat}{21}
+\glossaryentry{SMTP?\glossentry{glos:smtpLabel}|setentrycounter[]{page}\glsnumberformat}{19}
+\glossaryentry{DNS?\glossentry{glos:dnsLabel}|setentrycounter[]{page}\glsnumberformat}{21}
+\glossaryentry{DNS?\glossentry{glos:dnsLabel}|setentrycounter[]{page}\glsnumberformat}{21}
+\glossaryentry{RFID?\glossentry{glos:rfidLabel}|setentrycounter[]{page}\glsnumberformat}{23}
+\glossaryentry{VOIP?\glossentry{glos:voipLabel}|setentrycounter[]{page}\glsnumberformat}{23}
+\glossaryentry{SMTP?\glossentry{glos:smtpLabel}|setentrycounter[]{page}\glsnumberformat}{23}
+\glossaryentry{DNS?\glossentry{glos:dnsLabel}|setentrycounter[]{page}\glsnumberformat}{23}
+\glossaryentry{PUE?\glossentry{glos:pueLabel}|setentrycounter[]{page}\glsnumberformat}{23}
+\glossaryentry{Ausfallsicherheit?\glossentry{glos:failureSafetyLabel}|setentrycounter[]{page}\glsnumberformat}{23}
+\glossaryentry{Load Balancing?\glossentry{glos:loadBalancingLabel}|setentrycounter[]{page}\glsnumberformat}{23}
+\glossaryentry{Thin Client?\glossentry{glos:thinClientLabel}|setentrycounter[]{page}\glsnumberformat}{23}
+\glossaryentry{Home Office?\glossentry{glos:homeOfficeLabel}|setentrycounter[]{page}\glsnumberformat}{23}
+\glossaryentry{Virtual Private Netzwork?\glossentry{glos:vpnLabel}|setentrycounter[]{page}\glsnumberformat}{23}
+\glossaryentry{on-premise?\glossentry{glos:onPremiseLabel}|setentrycounter[]{page}\glsnumberformat}{23}
+\glossaryentry{I/O-Device?\glossentry{glos:ioDeviceLabel}|setentrycounter[]{page}\glsnumberformat}{23}
+\glossaryentry{Cloud?\glossentry{glos:cloudLabel}|setentrycounter[]{page}\glsnumberformat}{23}
