@@ -34,8 +34,11 @@
 \contentsline {subsection}{\numberline {4.7.2}K\IeC {\"o}rpersprache}{15}{subsection.4.7.2}
 \contentsline {subsection}{\numberline {4.7.3}Framing}{16}{subsection.4.7.3}
 \contentsline {section}{\numberline {4.8}Technische Aspekte}{17}{section.4.8}
-\contentsline {subsection}{\numberline {4.8.1}title}{17}{subsection.4.8.1}
-\contentsline {chapter}{\numberline {5}Diskussion}{18}{chapter.5}
-\contentsline {chapter}{\numberline {6}Schlussfolgerung}{19}{chapter.6}
-\contentsline {chapter}{\nonumberline Quellenverzeichnis}{20}{chapter*.16}
+\contentsline {subsection}{\numberline {4.8.1}ID Spoofing}{17}{subsection.4.8.1}
+\contentsline {subsubsection}{SpoofCard}{17}{subsubsection*.15}
+\contentsline {subsubsection}{SpoofApp}{17}{subsubsection*.16}
+\contentsline {subsubsection}{Asterisk}{17}{subsubsection*.17}
+\contentsline {chapter}{\numberline {5}Diskussion}{20}{chapter.5}
+\contentsline {chapter}{\numberline {6}Schlussfolgerung}{21}{chapter.6}
+\contentsline {chapter}{\nonumberline Quellenverzeichnis}{22}{chapter*.19}
 \contentsfinish

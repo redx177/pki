@@ -373,4 +373,65 @@ Auch kleinere Hilfsmittel können den Social Engineer unterstützen. Da wären z
 
 Hilfreich können auch \textbf{GPS-Tracker} sein. Ist ein solcher bei einer Person oder Fahrzeug positioniert, kann man auf einer Karte nachvollziehen, wo sich hinbewegt. So können Positionen für nachfolgende Angriffe herausgefunden werden.
 
-\subsection{title}
+\subsection{ID Spoofing}
+Bei der Kommunikation über das Telefon oder Computer ist es wichtig, vertrauen aufzubauen. Dies lässt sich gut über ID Spoofing erreichen. Dabei wird die Erkennung des Angreifers auf Seiten des Opfers so verändert, dass dieser meint er kenne den Angreifer. Beim Telefon kann die Rufnummer so verändert werden, dass zum Beispiel diejenige des Supports erscheint oder die einer Bank.
+
+\subsubsection{SpoofCard}
+In den USA gibt es SpoofCards. Darauf ist eine 800-Nummer notiert welche man anrufen kann. Dann gibt man die Telefonnummer ein, welche beim Opfer auf dem Display erscheint und danach die Nummer welche man anrufen möchte. Moderne SpoofCard's ermöglichen eine Aufzeichnung des Gesprächs sowie die Verfälschung der Stimme, sodass diese männlich oder weiblich klinkt.
+
+\subsubsection{SpoofApp}
+SpoofApp's sind für moderne Smartphones konzipiert und funktionieren vom Prinzip gleich wie eine SpoofCard. Die zu erscheinende und anzurufende Nummer werden in der Applikation angegeben und man ruft über einen Knopfdruck das Opfer an.
+
+\subsubsection{Asterisk} 
+Bei Asterisk handelt es sich um einen \gls{glos:voipLabel}-Server, mit welchem die eigene ID gespoofed werden kann. Der Vorteil zu den SpoofCards und SpoofApps wird ein eigenständig betriebener Server verwendet. Dazu wird folgendes benötigt:
+\begin{itemize}
+\item Computer (z.B. Intel P4 box mit 1GB RAM)
+\item Ubuntu Server
+\item Asterisk Software
+\item \gls{glos:voipLabel}-Service
+\end{itemize}
+
+Der Ubuntu Server und Asterisk werden auf dem Computer installiert. Die Telefonate werden mit der Asterisk Software getätigt und über den \gls{glos:voipLabel}-Service in das Telefonnetzwerk eingespiesen.
+
+Als erstes muss der \gls{glos:voipLabel}-Service konfiguriert werden. Dazu wird die \textit{/etc/asterisk/iax.conf} Datei angepasst. 
+\begin{quote}
+[VoicePulse]\\
+type=peer\\
+host=server.example.voicepulse.com\\
+username=SomeuSer\\
+secret=PaSsWorD\\
+\end{quote} 
+
+\textit{type} definiert den Typ der Verbindung. \textit{host}, \textit{username} und \textit{secret} werden vom \gls{glos:voipLabel}-Service zur verfügung gestellt.
+
+Als nächstes wird das \Gls{sipLabel} für Asterisk in der Datei \textit{/etc/asterisk/sip.conf} konfiguriert:
+\begin{quote}
+[sipuser]\\
+type=peer\\
+host=dynamic\\
+username=allan\\
+secret=1234\\
+context=outgoing\\
+\end{quote}
+
+Der \textit{type} definiert, welche Verbindungstyp verwendet werden soll.
+
+\textit{host} gibt die Adresse des \Gls{sipLabel}-Server oder -Service an. Es kann eine \Gls{sipLabel}, IP-Adresse, oder den Fixwert \textit{dynamic} sein. Dynamic ist zu verwenden wenn der Server, wie in diesem Beispiel, eine dynamische IP-Adresse besitzt.
+
+\textit{username} und \textit{secret} sind für die Authentifizierung am \Gls{sipLabel}-Server.
+
+\textit{context} gibt die Extension aus der \textit{extension.conf} an, welche verwendet werden soll. Diese muss als letztes auch noch definiert werden:
+
+\begin{quote}
+[outgoing]\\
+exten => \_0NXXNXXXXXX,1,SetCallerID(0443344020)\\
+exten => \_0NXXNXXXXXX,n,Dial(IAX2/VoicePulse/\$\{EXTEN\})\\
+\end{quote}
+
+Der Wert \textit{0NXXNXXXXX} ist ein Matching auf die eingegebene Telefonnummer. Die Nummer beginnt mit einer 0 und hat 9 folgende Zahlen. Dies passt auf alle schweizer Festnetz- und Mobil-Nummern ohne Landesvorwahl. 
+
+\textit{SetCallerID} ist die Telefonummer, welche gespoofed werden soll. Hier ist die Telefonnummer einer Credit Suisse Filiale angegeben.
+
+Der Wert in \textit{Dial} gibt an, dass das \textit{IAX2} Protokoll verwendet werden soll in der \textit{VoicePulse}-Verbindung, welche weiter oben definiert wurde. \textit{\$\{EXTEN\} ist ein Platzhalter für die gewählte Telefonnummer.
+
+Mit diesem Setup kann nun über Asterisk ein Telefonat gestartet werden über die Telefonnummer der Credit Suisse. Moderne Telefone gehen direkt ins Internet und zeigen an, dass der Absender die Credit Suisse ist.
