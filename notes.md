@@ -87,7 +87,7 @@
     - Online Tools
         - ...
     -
-- Prävention / Schadensbegrenzung
+- Prävention / Schadensbegrenzung:exclamation::exclamation::exclamation:
     - "Sicherheit durch Auflärung" (p21)
     - "Wissen ist Macht" (p21)
     - Passwortrichtlinien (stärker, weniger oft wechseln)

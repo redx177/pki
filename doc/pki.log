@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.19)  18 MAY 2015 14:56
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.19)  18 MAY 2015 17:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4162,6 +4162,11 @@ text indent by \l@... (toc, 1):  25.18501pt
 number indent by parent (toc, 1):  12.59247pt
 text indent calculated (toc, 1): 19.46661pt
 number indent calculated (toc, 1): 12.59247pt
+number indent by \l@... (toc, 1):  16.42499pt
+text indent by \l@... (toc, 1):  25.18501pt
+number indent by parent (toc, 1):  12.59247pt
+text indent calculated (toc, 1): 19.46661pt
+number indent calculated (toc, 1): 12.59247pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  16.42499pt
 number indent by parent (toc, 0):  0.0pt
@@ -4510,6 +4515,49 @@ LaTeX Font Info:    Try loading font information for TS1+lmr on input line 30.
  (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
+! Missing $ inserted.
+<inserted text> 
+                $
+l.52 ...achtet wird ist das Sammeln von InfSimple_
+                                                  Mail_Transfer_Protocol__Wi...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.52 ...eln von InfSimple_Mail_Transfer_Protocol__
+                                                  Wikipedia_2015-05-18ormati...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.53 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.53 
+     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (88.66937pt too wide) in paragraph at lines 52--53
+\T1/lmr/m/n/10.95 (-20) nun ge-nau-er be-trach-tet wird ist das Sam-meln von In
+fSimple$[]\OML/lmm/m/it/10.95 ail[]ransfer[]rotocol[]$ 
+ []
+
 Package cleveref Info: loaded `ngerman' language definitions on input line 53.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 53.
@@ -4521,7 +4569,7 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 53.
 \openout3 = `pki.mw'.
 
- [6] (./pki.mw)
+[6] (./pki.mw)
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 54.
 Package babel Info: Redefining ngerman shorthand "~
@@ -4534,14 +4582,14 @@ Package babel Info: Redefining ngerman shorthand "~
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/se-iso-8859-1.def
 File: se-iso-8859-1.def 2011/12/02 v1.10 stringenc: ISO-8859-1
 )
-<images/shredded-paper.jpg, id=239, 616.704pt x 462.528pt>
+<images/shredded-paper.jpg, id=241, 616.704pt x 462.528pt>
 File: images/shredded-paper.jpg Graphic file (type jpg)
 
 <use images/shredded-paper.jpg>
 Package pdftex.def Info: images/shredded-paper.jpg used on input line 67.
 (pdftex.def)             Requested size: 96.0274pt x 72.01575pt.
 
-<images/reassembled-shredded-paper.jpg, id=240, 401.5pt x 301.125pt>
+<images/reassembled-shredded-paper.jpg, id=242, 401.5pt x 301.125pt>
 File: images/reassembled-shredded-paper.jpg Graphic file (type jpg)
 
 <use images/reassembled-shredded-paper.jpg>
@@ -4549,7 +4597,7 @@ Package pdftex.def Info: images/reassembled-shredded-paper.jpg used on input li
 ne 73.
 (pdftex.def)             Requested size: 96.0274pt x 72.01875pt.
 
-<images/two-way-shredded-paper.jpg, id=241, 1606.0pt x 1071.00125pt>
+<images/two-way-shredded-paper.jpg, id=243, 1606.0pt x 1071.00125pt>
 File: images/two-way-shredded-paper.jpg Graphic file (type jpg)
 
 <use images/two-way-shredded-paper.jpg>
@@ -4574,7 +4622,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 90.
 
-<images/basket.png, id=247, 879.285pt x 642.4pt>
+<images/basket.png, id=255, 879.285pt x 642.4pt>
 File: images/basket.png Graphic file (type png)
  <use images/basket.png>
 Package pdftex.def Info: images/basket.png used on input line 99.
@@ -4593,7 +4641,7 @@ Package babel Info: Redefining ngerman shorthand "~
 
 
 [8 <./images/two-way-shredded-paper.jpg> <./images/basket.png>] (./pki.mw)
-<images/dradis.png, id=254, 805.0075pt x 676.5275pt>
+<images/dradis.png, id=262, 805.0075pt x 676.5275pt>
 File: images/dradis.png Graphic file (type png)
  <use images/dradis.png>
 Package pdftex.def Info: images/dradis.png used on input line 110.
@@ -4620,7 +4668,7 @@ Package babel Info: Redefining ngerman shorthand "~
 
 
 [9 <./images/dradis.png>] (./pki.mw)
-<images/shannon-weaver-model.png, id=260, 703.62875pt x 420.57124pt>
+<images/shannon-weaver-model.png, id=268, 703.62875pt x 420.57124pt>
 File: images/shannon-weaver-model.png Graphic file (type png)
 
 <use images/shannon-weaver-model.png>
@@ -4751,7 +4799,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 255.
 
-<images/mikroexpression-wut.jpg, id=303, 702.625pt x 697.60625pt>
+<images/mikroexpression-wut.jpg, id=311, 702.625pt x 697.60625pt>
 File: images/mikroexpression-wut.jpg Graphic file (type jpg)
 
 <use images/mikroexpression-wut.jpg>
@@ -4759,7 +4807,7 @@ Package pdftex.def Info: images/mikroexpression-wut.jpg used on input line 265.
 
 (pdftex.def)             Requested size: 64.01935pt x 63.5589pt.
 
-<images/mikroexpression-ekel.jpg, id=304, 358.33875pt x 416.55624pt>
+<images/mikroexpression-ekel.jpg, id=312, 358.33875pt x 416.55624pt>
 File: images/mikroexpression-ekel.jpg Graphic file (type jpg)
 
 <use images/mikroexpression-ekel.jpg>
@@ -4767,7 +4815,7 @@ Package pdftex.def Info: images/mikroexpression-ekel.jpg used on input line 271
 .
 (pdftex.def)             Requested size: 64.01935pt x 74.41754pt.
 
-<images/mikroexpression-verachtung.png, id=305, 210.7875pt x 240.9pt>
+<images/mikroexpression-verachtung.png, id=313, 210.7875pt x 240.9pt>
 File: images/mikroexpression-verachtung.png Graphic file (type png)
 
 <use images/mikroexpression-verachtung.png>
@@ -4775,7 +4823,7 @@ Package pdftex.def Info: images/mikroexpression-verachtung.png used on input li
 ne 277.
 (pdftex.def)             Requested size: 64.01935pt x 73.16377pt.
 
-<images/mikroexpression-ueberraschung.png, id=306, 210.7875pt x 240.9pt>
+<images/mikroexpression-ueberraschung.png, id=314, 210.7875pt x 240.9pt>
 File: images/mikroexpression-ueberraschung.png Graphic file (type png)
 
 <use images/mikroexpression-ueberraschung.png>
@@ -4783,7 +4831,7 @@ Package pdftex.def Info: images/mikroexpression-ueberraschung.png used on input
  line 283.
 (pdftex.def)             Requested size: 64.01935pt x 73.16377pt.
 
-<images/mikroexpression-angst.png, id=307, 210.7875pt x 240.9pt>
+<images/mikroexpression-angst.png, id=315, 210.7875pt x 240.9pt>
 File: images/mikroexpression-angst.png Graphic file (type png)
 
 <use images/mikroexpression-angst.png>
@@ -4791,7 +4839,7 @@ Package pdftex.def Info: images/mikroexpression-angst.png used on input line 28
 9.
 (pdftex.def)             Requested size: 64.01935pt x 73.16377pt.
 
-<images/mikroexpression-traurigkeit.png, id=308, 210.7875pt x 240.9pt>
+<images/mikroexpression-traurigkeit.png, id=316, 210.7875pt x 240.9pt>
 File: images/mikroexpression-traurigkeit.png Graphic file (type png)
 
 <use images/mikroexpression-traurigkeit.png>
@@ -4799,7 +4847,7 @@ Package pdftex.def Info: images/mikroexpression-traurigkeit.png used on input l
 ine 295.
 (pdftex.def)             Requested size: 64.01935pt x 73.16377pt.
 
-<images/mikroexpression-glueck.jpg, id=309, 1027.84pt x 752.8125pt>
+<images/mikroexpression-glueck.jpg, id=317, 1027.84pt x 752.8125pt>
 File: images/mikroexpression-glueck.jpg Graphic file (type jpg)
 
 <use images/mikroexpression-glueck.jpg>
@@ -4832,28 +4880,28 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 327.
 
-<images/framing-fedex.jpg, id=322, 903.375pt x 439.6425pt>
+<images/framing-fedex.jpg, id=330, 903.375pt x 439.6425pt>
 File: images/framing-fedex.jpg Graphic file (type jpg)
 
 <use images/framing-fedex.jpg>
 Package pdftex.def Info: images/framing-fedex.jpg used on input line 335.
 (pdftex.def)             Requested size: 153.64444pt x 74.77177pt.
 
-<images/framing-amazon.jpg, id=323, 604.2575pt x 256.96pt>
+<images/framing-amazon.jpg, id=331, 604.2575pt x 256.96pt>
 File: images/framing-amazon.jpg Graphic file (type jpg)
 
 <use images/framing-amazon.jpg>
 Package pdftex.def Info: images/framing-amazon.jpg used on input line 341.
 (pdftex.def)             Requested size: 153.64444pt x 65.33768pt.
 
-<images/framing-toblerone.jpg, id=324, 582.175pt x 250.9375pt>
+<images/framing-toblerone.jpg, id=332, 582.175pt x 250.9375pt>
 File: images/framing-toblerone.jpg Graphic file (type jpg)
 
 <use images/framing-toblerone.jpg>
 Package pdftex.def Info: images/framing-toblerone.jpg used on input line 347.
 (pdftex.def)             Requested size: 153.64444pt x 66.22243pt.
 
-<images/framing-yoga.jpg, id=325, 602.25pt x 261.97874pt>
+<images/framing-yoga.jpg, id=333, 602.25pt x 261.97874pt>
 File: images/framing-yoga.jpg Graphic file (type jpg)
 
 <use images/framing-yoga.jpg>
@@ -5022,16 +5070,16 @@ Package babel Info: Redefining ngerman shorthand "~
 [19] (./pki.mw)
 \openout3 = `pki.mw'.
 
-Package cleveref Info: loaded `ngerman' language definitions on input line 513.
+Package cleveref Info: loaded `ngerman' language definitions on input line 511.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 513.
+(babel)             in language  on input line 511.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 513.
+(babel)             in language  on input line 511.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 513.
+(babel)             in language  on input line 511.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 513.
+(babel)             in language  on input line 511.
 \openout3 = `pki.mw'.
 
  [20] (./pki.mw))
@@ -5079,13 +5127,13 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 24.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 30.
+(babel)             in language  on input line 28.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 30.
+(babel)             in language  on input line 28.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 30.
+(babel)             in language  on input line 28.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 30.
+(babel)             in language  on input line 28.
 \openout3 = `pki.mw'.
 
 [22] (./pki.mw)
@@ -5095,6 +5143,10 @@ Package babel Info: Redefining ngerman shorthand "~
 
 \openout3 = `pki.mw'.
 
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 43.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 43.
 )
 Package cleveref Info: loaded `ngerman' language definitions on input line 205.
 
@@ -5396,6 +5448,8 @@ Package cleveref Info: loaded `ngerman' language definitions on input line 39.
 
 )
 (./content/4-Discussion.aux
+\openout3 = `pki.mw'.
+
 \openout3 = `pki.mw'.
 
 \openout3 = `pki.mw'.
@@ -5837,6 +5891,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'pki.run.xml'.
 \openout1 = `pki.run.xml'.
 
@@ -5854,30 +5915,34 @@ Package logreq Info: Writing requests to 'pki.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 62000 strings out of 493304
- 1288783 string characters out of 6139870
+ 62005 strings out of 493304
+ 1288982 string characters out of 6139870
  1767949 words of memory out of 5000000
- 63398 multiletter control sequences out of 15000+600000
+ 63400 multiletter control sequences out of 15000+600000
  144915 words of font info for 223 fonts, out of 8000000 for 9000
  963 hyphenation exceptions out of 8191
  65i,13n,101p,10438b,2732s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/shar
-e/texmf/fonts/enc/dvips/lm/lm-rm.enc}</usr/share/texmf/fonts/type1/public/lm/lm
-bx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx9.pfb></usr/share/texmf/fo
-nts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.p
-fb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/ty
-pe1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/
-share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public
-/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri9.pfb></usr/share/te
-xmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lm
-ss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/f
-onts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.
-pfb></usr/share/texmf/fonts/type1/public/lm/lmtt9.pfb>
-Output written on pki.pdf (35 pages, 4297640 bytes).
+ips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share
+/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
+-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/f
+onts/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.
+pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/
+type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></u
+sr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/pu
+blic/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share
+/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/l
+mr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/font
+s/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri9.pfb>
+</usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type
+1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr
+/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/pub
+lic/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share
+/texmf/fonts/type1/public/lm/lmtt9.pfb>
+Output written on pki.pdf (35 pages, 4332980 bytes).
 PDF statistics:
- 675 PDF objects out of 1000 (max. 8388607)
- 583 compressed objects within 6 object streams
- 141 named destinations out of 1000 (max. 500000)
- 59394 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 710 PDF objects out of 1000 (max. 8388607)
+ 612 compressed objects within 7 object streams
+ 144 named destinations out of 1000 (max. 500000)
+ 59402 words of extra memory for PDF output out of 61914 (max. 10000000)
 

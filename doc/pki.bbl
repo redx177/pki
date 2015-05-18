@@ -181,6 +181,20 @@
   \field{urlyear}{2015}
 \endentry
 
+\entry{Simple_Mail_Transfer_Protocol__Wikipedia_2015-05-18}{online}{}
+  \field{sortinit}{S}
+  \field{title}{Simple Mail Transfer Protocol – Wikipedia}
+  \verb{url}
+  \verb https://de.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol
+  \endverb
+  \verb{file}
+  \verb :./references/Simple Mail Transfer Protocol – Wikipedia.html:html
+  \endverb
+  \field{urlday}{18}
+  \field{urlmonth}{05}
+  \field{urlyear}{2015}
+\endentry
+
 \entry{Social_Engineering_Wenn_die_Gefahr_im_Anzug_kommt__t3n_2015-04-26}{online}{}
   \field{sortinit}{S}
   \field{title}{Social Engineering: Wenn die Gefahr im Anzug kommt | t3n}
