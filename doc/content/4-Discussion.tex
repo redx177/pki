@@ -1,3 +1,4 @@
+\setcounter{secnumdepth}{3}
 \chapter{Phishing}
 Bei Phishing handelt es sich um eine Unterart des Social Engineerings. Bislang wurden stets einzelne, ausgewählte Opfer angegriffen.
 Beim Phishing sucht man ein Ziel aus einer grosse Menge von möglichen Zielen ausfindig zu machen. Dazu werden oft Spam E-Mails, \Gls{glos:ircLabel} Chats oder soziale Plattformen eingesetzt. Mit denen wird versucht, eine Schwachstelle auszunutzen. Dazu werden oft präparierte Webseiten verwendet um etwas zu verkaufen oder eine sicherheitstechnische Schwachstelle auszunutzen.
@@ -41,4 +42,134 @@ Der \textit{Kanal} ist üblicherweise eine Auswahl aus E-Mail,  \Gls{glos:ircLab
 \textit{Empfänger} ist die festgelegte Zielgruppe und der \textit{Zielort} ist oft eine präparierte Webseite, ein Download welcher getätigt werden soll, etc.
 
 \section{Angriff vorbereiten}
-Das Ziel 
+Der Angriff besteht daraus, das Opfer aus einer Nachricht heraus auf ein gewünschtes Ziel zu manövrieren und eine der folgenden Attacken auszuführen:
+\begin{itemize}
+\item Man-in-the-Middle Attacke
+\item URL-Obfuscation
+\item Cross-Site-Scripting Attacke
+\item Preset Session Attacke
+\item Hidden Attacke
+\item Observing Customer Data
+\item Client-side vulnerability
+\end{itemize}
+
+Die Verschiedenen Attacken werden nun genauer beschrieben.
+
+\subsection{Attacken}
+\subsubsection{Man-in-the-Middle Attacke}
+Bei der \textit{Man-in-the-Middle Attacke} wird der User auf einen Proxy geleitet, welcher unter der Kontrolle des Angreifers steht. Dabei handelt es sich um einen Computer, welche alle Anfragen an das eigentliche Ziel des Opfers weiterleitet. Auf dem Proxy-Server kann danach die ganze Kommunikation mitgeschnitten und falls gewünscht, verändert werden.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth]{images/man-in-the-middle-attacke.png}
+  \caption{Man-in-the-Middle Attackte}
+  \label{fig:phishing:angriffvorbereiten:attacken:maninthemiddleattacke}
+\end{figure}
+
+Um den Benutzer auf den Proxy zu bugsieren gibt es mehrere Methoden:
+\begin{itemize}
+\item Transparent Proxy
+\item DNS Cache Poisoning
+\item URL Obfuscation
+\item Browser Proxy Configuration
+\end{itemize}
+
+Der \textbf{Transparent Proxy} verbindet den Proxy-Server mit dem Gateway des Computers vom Opfer. Sprich wenn der User über seinen Gateway ins Netzwerk geht, wird er automatisch über den Proxy-Server geleitet. Der Vorteil an dieser Attacke ist es, dass nichts am PC des Users manipuliert werden muss.
+
+Bei \textbf{DNS Cache Poisoning} werden falsche \gls{glos:dnsLabel}-Einträge auf dem Computer des Users oder auf der Netzwerk-\gls{glos:firewallLabel} generiert. Das führt dazu, dass wenn der Benutzer auf die Adresse www.meinebank.ch möchte, er auf dem Proxy-Server landet.
+
+\textbf{URL Obfuscation} beschreibt das Maskieren von \Glspl{urlLabel}. Es wird zum Beispiel auf die Seite www.meinebank.ch.cx verlinkt anstelle von www.meinebank.ch. Die Methode wird im Abschnitt \ref{sec:phishing:angriffvorbereiten:attacken:urlobfuscationattacke} näher umschrieben.
+
+Im Gegensatz zu den anderen Angriffen, muss der Angreifer bei \textbf{Browser Proxy Configuration} vor dem Angriff aktiv werden. Dazu wird im Webbrowser des Opfers der eigene Proxyserver eingetragen, sodass die ganze Kommunikation abgehört werden kann. Der Nutzer merkt dabei nichts, solange er nicht in den Einstellungen des Programms nachschauen geht.
+
+\subsubsection{URL-Obfuscation}
+\label{sec:phishing:angriffvorbereiten:attacken:urlobfuscationattacke}
+Bei der URL-Obfuscation Attacke wird der User auf eine \Gls{urlLabel} gelockt, die der originalen \Gls{urlLabel} zum verwechseln ähnlich sieht. Es gibt verschiedene Möglichkeiten dies zu bewerkstelligen.
+\begin{itemize}
+\item Ähnliche Domainname 
+\item Freundliche Login Namen
+\item Domainname verschleiern
+\item Domainname verschleiern durch Drittanbieter
+\end{itemize}
+
+Bei den \textbf{ähnlichen Domainnamen} wird versucht die \Gls{urlLabel} minimal zu verändern so dass der User nichts merkt. Wenn er zum Beispiel auf die Seite www.ebanking.meinebank.ch möchte, können folgende Adressen vorgetäuscht werden:
+\begin{itemize}
+\item www.ebanking.meinebank.ch\textbf{.cx}
+\item www.\textbf{meinebank.ebanking}.ch
+\item www.ebanking.meineb\textbf{o}nk.ch
+\item www.ebanking.meineb\textbf{{à}}nk.ch
+\item www.ebanking.meinebank\textbf{.secure}.ch
+\end{itemize}
+
+Moderne Browser erlauben es, \textbf{Login-Daten} in der \Gls{urlLabel} einzubetten, um. Diese \Glspl{urlLabel} haben folgende Form: http://[username]:[passwort]@[domainname]/[pfad]. Damit kann zum Beispiel eine folgende \Gls{urlLabel} generiert werden:\\
+http://meinebank.ch:ebanking@\textbf{hack.ch}/sicherheit/ebanking/loginseite.html\\
+Die Adresse ist absichtlich möglichst lange, damit der falsche Domainname nicht auffällt.
+
+Eine weitere Möglichkeit ist die \textbf{verschleierung des Domainnamens}. Ist die das Ziel die Adresse http://meinebank.ch:ebanking@\textbf{hack.ch}/loginseite.html, kann anstelle von hack.ch die IP-Adresse verwendet werden. Zum Beispiel 210.134.161.35. Diese kann noch weiter verschleiert werden, indem die decimalzahlen in das octal- oder hexadezimal-System konvertiert werden. Nachvolgend die Beispiele:
+\begin{itemize}
+\item Dezimal: http://meinebank.ch:ebanking@\textbf{210.134.161.35}/loginseite.html
+\item Octal:  http://meinebank.ch:ebanking@\textbf{0322.0206.0241.0043}/loginseite.html
+\item Hexadezimal:  http://meinebank.ch:ebanking@\textbf{0xD2.0x86.0xA1.0x23}/loginseite.html
+\end{itemize}
+
+Die letzte hier vorgestellte Methode ist die \textbf{verschleierung durch Drittanbieter}. Es gibt Anbieter, welche eine Linkverkürzung anbieten. Als Beispiele können hier http://tinyurl.com/ oder Googles Service http://goo.gl genannt werden. Aus der Adresse www.hacker.com kann folgendes werden:
+
+\begin{itemize}
+\item http://tinyurl.com/38gyas
+\item http://goo.gl/BNlbFj
+\end{itemize}
+
+\subsubsection{Cross-Site-Scripting Attacke}
+Das \Gls{urlLabel} nutzt Sicherheitslücken auf Webseiten aus, die es erlauben Schadcode auszuführen, welche über die \Gls{urlLabel} mitgegeben werden. Ein Beispiel ist www.meinebank.ch?url=www.hacker.ch. Der Benutzer geht dabei wirklich auf die Seite www.meinebank.ch. Wird jedoch auf www.hacker.ch weitergeleitet, da dies ein Fehler der Webseite ist. Es könnte auch sein, dass ein Code ausgeführt wird, welcher im Hintergrund die Benutzernamen und Passwörter mitschneidet und, ohne das der Benutzer etwas merkt, diese an einen Server weiterleitet.
+
+Solche Adressen sind verdächtig, können jedoch mit den zuvor vorgestellten Techniken unkenntlich gemacht werden.
+
+\subsubsection{Preset Session Attacke}
+Um diese Attacke zu erläutern, muss zuerst etwas ausgeholt werden.
+
+Im Internet werden die Protokolle meistens http und https verwendet. Beide sind statless, was so viel bedeutet, dass zwischen zwei Seitenaufrufen keine Verbindung besteht. Hat man sich auf der ersten Seite eingeloggt, weiss das der Server auf der zweiten Seite nicht mehr. Um eine Verbindung zwischen den beiden aufrufen zu schaffen werden heute Sessions verwendet. Dazu wird dem Client (dem Computer des Benutzers) eine SessionID übergeben, die er bei jeder Anfrage mitsendet.
+
+Bei der Attacke nutzt der Angreifer ein schlechtes Session Handling einer Webseite aus, indem zum Beispiel eine SessionID über die \Gls{urlLabel} mitgegeben werden kann. Dies kann so aussehen: www.meinebank.ch?sessionid=3V1L5e5510N. Wenn der Benutzer auf den Link klickt und sich auf der Webseite in sein E-Banking einloggt, kann der Angreifer mit einem Aufruf der selben \Gls{urlLabel} die Session übernehmen und hat damit zugriff auf die Bankgeschäfte des Opfers.
+
+Ein Server des Angreifers kann automatisiert stetig Anfragen an www.meinebank.ch stellen und eine Meldung bekommen, sobald sich ein Opfer eingeloggt hat.
+
+\subsubsection{Hidden Attacke}
+Hidden Attacken führen JavaScript Code auf einer Seite aus, um unbemerkt eine Attacke auszuführen. Der JavaScript Code wird mittels \Gls{urlLabel} oder Man-in-the-Middle eingeschleust. Es gibt verschiedene Gruppen von dieser Attacke.
+\begin{itemize}
+\item Versteckte Frames
+\item Seiteninhalt überschreiben
+\end{itemize}
+\textbf{Versteckte Frames} zeigen auf eine andere Webseite (diejenige des Hackers) und führen diese aus. Es muss damit ein kleines Codestück in die Webseite eingeschleust werden, um viel Code auszuführen. Die Frames sind 0 Pixel gross und deshalb für den Benutzer unsichtbar.
+
+Wenn \textbf{Seiteninhalte überschrieben} werden, kann das verhalten der Seite so angepasst werden, dass zum Beispiel Benutzernamen und Passwörter nicht an die gewünschte Stelle, sondern an den Server des Phishers übermittelt werden. Dabei wird darauf geachtet, dass das Aussehen und das Verhalten der Ursprungsseite genau imitiert wird. Somit ist auch dieser Angriff für einen Benutzer nicht sichtbar.
+
+\subsubsection{Observing Customer Data}
+
+
+\subsubsection{Client-side vulnerability}
+Oft ist das Ziel einer Attacke eine Sicherheitslücke eines Browsers. Moderne Browsers können Flash, Java-Programme, Filme, etc. direkt abspielen. Dazu verwenden sie Programme welche auf dem Computer des Opfers installiert sind. Angreifer können sich Schwachstelleim Browsern oder den installierten Programmen zur nutze machen um zum Beispiel weiteren Schadcode auf dem Rechner zu installieren. 
+
+Internet Explorer hatte die Sicherheitslücke, dass er \Glspl{urlLabel}, welche die Zeichenfolge \%01 enthielten einfach abschnitt. Besucht der Benutzer die Seite \\
+http://meinebank.ch:ebanking\%01@hack.ch, wurde die ganze \Gls{urlLabel} ausgeführt, jedoch nur der teil vor dem \%01 angezeigt.
+
+Eine weitere Sicherheitslücke bestand im Programm Media Player von Microsoft. Über folgenden Code konnte ein Skin für den Player heruntergeladen werden:
+\begin{quote}
+"C:/Program files/Windows Media Player/Skins/SKIN.WMZ" : <IFRAME
+SRC="'\textbf{wmp2.wmz}"'></IFRAME>
+\end{quote}
+
+Die Datei \textit{wmp2.wmz} konnte dabei ein Java Applet sein. Das ist ein Java Code, welcher vom Browser ausgeführt werden kann. Mit folgendem Stück Code auf einer Webseite konnte der schadhafte Datei ausgeführt werden
+\begin{quote}
+<APPLET \\
+  CODEBASE="file://c:/" \\
+  ARCHIVE="Program files/Windows Media\\
+  Player/SKINS/\textbf{wmp2.wmz}"\\
+  CODE="gjavacodebase.class" \\
+  WIDTH=700 \\
+  HEIGHT=300>\\
+  <PARAM NAME="URL" VALUE="'file:///c:/test.txt" x >
+</APPLET>
+\end{quote}
+Damit kann jeglicher Schadcode ausgeführt werden. Sprich ein Hacker kann volle Kontrolle über einen Computer erlagen.
+
+Die gezeigten Sicherheitslücken sind mittlerweile behoben. Jedoch werden stetig neue Fehler in Programmen gefunden, welche zur ausführung von Schadcode verwendet werden kann.

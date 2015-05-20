@@ -1,5 +1,3 @@
-\glossaryentry{Cloud?\glossentry{glos:cloudLabel}|setentrycounter[]{page}\glsnumberformat}{vi}
-\glossaryentry{I/O-Device?\glossentry{glos:ioDeviceLabel}|setentrycounter[]{page}\glsnumberformat}{vii}
 \glossaryentry{RFID?\glossentry{glos:rfidLabel}|setentrycounter[]{page}\glsnumberformat}{12}
 \glossaryentry{RFID?\glossentry{glos:rfidLabel}|setentrycounter[]{page}\glsnumberformat}{12}
 \glossaryentry{RFID?\glossentry{glos:rfidLabel}|setentrycounter[]{page}\glsnumberformat}{12}
@@ -14,17 +12,11 @@
 \glossaryentry{DNS?\glossentry{glos:dnsLabel}|setentrycounter[]{page}\glsnumberformat}{21}
 \glossaryentry{IRC?\glossentry{glos:ircLabel}|setentrycounter[]{page}\glsnumberformat}{22}
 \glossaryentry{IRC?\glossentry{glos:ircLabel}|setentrycounter[]{page}\glsnumberformat}{23}
-\glossaryentry{RFID?\glossentry{glos:rfidLabel}|setentrycounter[]{page}\glsnumberformat}{24}
-\glossaryentry{VOIP?\glossentry{glos:voipLabel}|setentrycounter[]{page}\glsnumberformat}{24}
-\glossaryentry{SMTP?\glossentry{glos:smtpLabel}|setentrycounter[]{page}\glsnumberformat}{24}
 \glossaryentry{DNS?\glossentry{glos:dnsLabel}|setentrycounter[]{page}\glsnumberformat}{24}
-\glossaryentry{IRC?\glossentry{glos:ircLabel}|setentrycounter[]{page}\glsnumberformat}{24}
-\glossaryentry{PUE?\glossentry{glos:pueLabel}|setentrycounter[]{page}\glsnumberformat}{24}
-\glossaryentry{Ausfallsicherheit?\glossentry{glos:failureSafetyLabel}|setentrycounter[]{page}\glsnumberformat}{24}
-\glossaryentry{Load Balancing?\glossentry{glos:loadBalancingLabel}|setentrycounter[]{page}\glsnumberformat}{24}
-\glossaryentry{Thin Client?\glossentry{glos:thinClientLabel}|setentrycounter[]{page}\glsnumberformat}{24}
-\glossaryentry{Home Office?\glossentry{glos:homeOfficeLabel}|setentrycounter[]{page}\glsnumberformat}{24}
-\glossaryentry{Virtual Private Netzwork?\glossentry{glos:vpnLabel}|setentrycounter[]{page}\glsnumberformat}{24}
-\glossaryentry{on-premise?\glossentry{glos:onPremiseLabel}|setentrycounter[]{page}\glsnumberformat}{24}
-\glossaryentry{I/O-Device?\glossentry{glos:ioDeviceLabel}|setentrycounter[]{page}\glsnumberformat}{24}
-\glossaryentry{Cloud?\glossentry{glos:cloudLabel}|setentrycounter[]{page}\glsnumberformat}{24}
+\glossaryentry{Firewall?\glossentry{glos:firewallLabel}|setentrycounter[]{page}\glsnumberformat}{24}
+\glossaryentry{RFID?\glossentry{glos:rfidLabel}|setentrycounter[]{page}\glsnumberformat}{28}
+\glossaryentry{VOIP?\glossentry{glos:voipLabel}|setentrycounter[]{page}\glsnumberformat}{28}
+\glossaryentry{SMTP?\glossentry{glos:smtpLabel}|setentrycounter[]{page}\glsnumberformat}{28}
+\glossaryentry{DNS?\glossentry{glos:dnsLabel}|setentrycounter[]{page}\glsnumberformat}{28}
+\glossaryentry{IRC?\glossentry{glos:ircLabel}|setentrycounter[]{page}\glsnumberformat}{28}
+\glossaryentry{Firewall?\glossentry{glos:firewallLabel}|setentrycounter[]{page}\glsnumberformat}{28}

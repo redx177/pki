@@ -11,10 +11,12 @@
 \newacronym{cfoLabel}{CFO}{Chief Financial Officer}
 \newacronym{csoLabel}{CSO}{Chief Security Officer}
 \newacronym{sipLabel}{SIP}{Session Initiation Protocol}
-\newacronym{urlLabel}{URL}{Uniform Resource Locator}
+\newacronym[longplural={Uniform Resource Locators}]{urlLabel}{URL}{Uniform Resource Locator}
 \newacronym{spfLabel}{SPF}{Sender Policy Framework}
 \newacronym{dkimLabel}{DKIM}{DomainKeys Identified Mail}
 \newacronym{dmarcLabel}{DMARC}{Domain-based Message Authentication, Reporting and Conformance}
+\newacronym{xssLabel}{XSS}{Cross-Site-Scripting}
+
 }
 
 %%% --- Symbol list entries
@@ -42,47 +44,8 @@
 \newglossaryentry{glos:ircLabel}{name=IRC,
   description={Internet Relay Chat (IRC) ist ein rein textbasiertes Chat-System. Es ermöglicht Chat-Rooms mit einer unbeschränkter Anzahl an Teilnehmern, sowie private Chats zwischen zwei Personen.}
 }
-\newglossaryentry{glos:pueLabel}{name=PUE,
-  description={Mit der Power usage effectiveness (PUE) wird der Stromverbrauch eines Datenzenters berechnet. Dieser setzt sich folgendermassen zusammen:
-  \begin{gather*}
-  	\text{PUE} = \frac{\text{Total Stromkosten}}{\text{Stromkosten der IT}}
-  \end{gather*}}
-}
-\newglossaryentry{glos:failureSafetyLabel}{name=Ausfallsicherheit,
-	description={Mit der Ausfallsicherheit wird die minimale zeitliche Erreichbarkeit (resp. maximale Ausfallzeit) eines Systems angegeben. Ist diese Ausfallzeit sehr gering spricht man von Hochverfügbarkeit (High Availability), dazu ist mindestens eine Verfügbarkeit von 99.9 \% nötig.
-	Die Verfügbarkeit berechnet man wie folgt:
-	\begin{gather*}
-		\text{Verfügbarkeit} = (1- \frac{\text{Ausfallzeit}}{\text{Periode}}) * 100\\
-		\text{Ausfallzeit} = (1 - \frac{\text{Verfügbarkeit}}{100}) * \text{Periode}
-	\end{gather*}}
-}
-\newglossaryentry{glos:loadBalancingLabel}{name=Load Balancing,
-  description={Load Balancing verteilt die Arbeitsbelastung auf verschiedene Systeme. Damit kann die Antwortzeit reduziert werden. Wenn ein System ausfällt, hat es immer noch weitere die funktionieren. Dies steigert die Ausfallsicherheit des Gesamtsystems.}
-}
-\newglossaryentry{glos:thinClientLabel}{
-  name=Thin Client,
-  plural={Thin Clients},
-  description={Ein Thin Client ist ein günstiger, rechen-schwacher Computer. Er wird dazu verwendet, um Arbeiten zu erledigen die auf einem rechen-starken Server statt finden. Ein Thin Client übernimmt hauptsächlich die Bereitstellung von \Glspl{glos:ioDeviceLabel}.}
-}
-\newglossaryentry{glos:homeOfficeLabel}{
-  name=Home Office,
-  description={Mit Home Office wird das Arbeiten von zu Hause bezeichnet. Dabei wird oft eine sichere Verbindung von zu Hause auf die Infrastruktur der Firma erzeugt.}
-}
-\newglossaryentry{glos:vpnLabel}{
-  name=Virtual Private Netzwork,
-  description={Ein Virtual Private Netzwork wird zwischen einem Teilnehmer und dem Server aufgebaut. Dabei wird innerhalb eines öffentlichen Netzwerkes, wie dem Internet, ein privates und sicheres Netzwerk erstellt.}
-}
-\newglossaryentry{glos:onPremiseLabel}{name=on-premise,
-	description={On-premise Software bezeichnet jegliche Ausführung von Software die vorwiegend auf dem Endgerät selbst läuft. Alternativ existiert das \Gls{glos:cloudLabel} Modell, bei dem der Grossteil der Software auf einem Server ausgeführt wird.}
-}
-\newglossaryentry{glos:ioDeviceLabel}{
-	name=I/O-Device,
-	plural={I/O-Devices},
-	description={Input/Output (I/O) Devices sind Geräte, welche für die Kommunikation zwischen Mensch und Maschine notwendig sind. (Bsp.: Bildschirm, Tastatur, Drucker,...)}
-}
-\newglossaryentry{glos:cloudLabel}{
-	name=Cloud,
-	description={Der Begriff \textit{Cloud} ist im \cref{sec:cloud:definition} definiert.}
+\newglossaryentry{glos:firewallLabel}{name=Firewall,
+  description={Eine Firewall sichert einen Computer oder ein Rechnernetz vor unerwünschten Netzwerkzugriffen.}
 }
 
 
