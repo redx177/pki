@@ -1,19 +1,19 @@
 \setcounter{secnumdepth}{3}
 \chapter{Phishing}
 Bei Phishing handelt es sich um eine Unterart des Social Engineerings. Bislang wurden stets einzelne, ausgewählte Opfer angegriffen.
-Beim Phishing sucht man ein Ziel aus einer grosse Menge von möglichen Zielen ausfindig zu machen. Dazu werden oft Spam E-Mails, \Gls{glos:ircLabel} Chats oder soziale Plattformen eingesetzt. Mit denen wird versucht, eine Schwachstelle auszunutzen. Dazu werden oft präparierte Webseiten verwendet um etwas zu verkaufen oder eine sicherheitstechnische Schwachstelle auszunutzen.
+Beim Phishing wird über Spam E-Mails, \Gls{glos:ircLabel} Chats oder soziale Plattformen eine grosse Anzahl an Opfer angeschrieben in der Hoffnung, dass einige dem Angriff zum Opfer fallen. Es wird versucht, die Angegriffenen auf präparierte Webseiten zu locken, etwas zu verkaufen oder eine sicherheitstechnische Schwachstelle auszunutzen.
 
-Auch wenn man eine Gruppe als Ziel hat, gelten die selben Techniken wie im Kapitel \ref{sec:socialengineering} Social Engineering beschrieben.
-Die Gruppe muss dazu identifiziert werden um die richtige Taktik zu wählen.
+Den Ablauf eines Angriffes kann in folgende Schritte aufgeteilt werden:
+\begin{itemize}
+\item Informationssammlung und festlegung der Zielgruppe
+\item Kommnunikationsmodel ausarbeiten
+\item Angriff vorbereiten und durchführen
+\end{itemize}
 
-Danach müssen das Kommunikationsmodel (siehe Abschnitt \ref{fig:socialengineering:kommunikation:kommunikationsmodell} Kommunikationsmodell) gewählt werden.
+Auch wenn man eine Gruppe als Ziel hat und nicht eine ausgewühlte Person, gelten die selben Techniken wie im Kapitel \ref{sec:socialengineering} Social Engineering beschrieben.
 
-Schlussendlich wird der Angriff vorbereitet und durchgeführt.
-
-\section{Zielgruppe}
-Möchte man ein Angriff vorbereiten muss man wissen, wer seine Zielgruppe ist. Die Einteilung ist wichtig, um später zu wissen wie man zum Beispiel die Spam Mails oder Kurznachrichten verfassen möchte. Möchte man Viagra-Pillen verkaufen, ist die Zielgruppe Männlich. Dann sollte auch das nachträglich erläuterte Kommunikationsmodell entsprechend wählen.
-
-Eine Einteilung ist in folgende Bereiche möglich:
+\section{Informationssammlung und Zielgruppe}
+Möchte man ein Angriff vorbereiten muss man wissen, wer seine Zielgruppe ist.  Eine Einteilung ist in folgende Bereiche möglich:
 \begin{itemize}
 \item Geschlecht
 \item Alter
@@ -22,8 +22,10 @@ Eine Einteilung ist in folgende Bereiche möglich:
 \item etc.
 \end{itemize}
 
+Mit einer Phishing-Nachricht muss das interesse des Opfers geweckt werden, so dass er/sie auf die Nachricht antwortet oder auf einen weiterführenden Link klickt. Dazu müssen Informationen gesammelt werden, was die Interessen, stärken und schwächen der Zielgruppe ist. Diese Informationen werden nachher weiter verwendet um ein geeignetes Kommunikationsmodell auszuarbeiten.
+
 \section{Kommunikationsmodell}
-Wie im Abschnitt \ref{fig:socialengineering:kommunikation:kommunikationsmodell} beschrieben besteht ein Kommunikationsmodell aus folgenden Teilen:
+Wie im Abschnitt \ref{sec:socialengineering:kommunikation:kommunikationsmodell} beschrieben besteht ein Kommunikationsmodell aus folgenden Teilen:
 \begin{itemize}
 \item Informationsquelle
 \item Übertragung
@@ -55,7 +57,8 @@ Der Angriff besteht daraus, das Opfer aus einer Nachricht heraus auf ein gewüns
 
 Die Verschiedenen Attacken werden nun genauer beschrieben.
 
-\subsection{Attacken}
+\subsection{Angriffsvektoren}
+
 \subsubsection{Man-in-the-Middle Attacke}
 Bei der \textit{Man-in-the-Middle Attacke} wird der User auf einen Proxy geleitet, welcher unter der Kontrolle des Angreifers steht. Dabei handelt es sich um einen Computer, welche alle Anfragen an das eigentliche Ziel des Opfers weiterleitet. Auf dem Proxy-Server kann danach die ganze Kommunikation mitgeschnitten und falls gewünscht, verändert werden.
 
@@ -173,3 +176,9 @@ Die Datei \textit{wmp2.wmz} konnte dabei ein Java Applet sein. Das ist ein Java 
 Damit kann jeglicher Schadcode ausgeführt werden. Sprich ein Hacker kann volle Kontrolle über einen Computer erlagen.
 
 Die gezeigten Sicherheitslücken sind mittlerweile behoben. Jedoch werden stetig neue Fehler in Programmen gefunden, welche zur ausführung von Schadcode verwendet werden kann.
+
+\subsection{Nachricht ausarbeiten}
+Abhängig vom gewählten Kommunikationskanal muss eine Nachricht ausgearbeitet werden, welche die ausgewählte Zielgruppe möglichst stark anspricht.
+Es können die Techniken des Elizitieren, welche im Abschnitt \ref{sec:Elizitieren:techniken} besprochen wurden, angewendet werden um vertrauen mit dem Opfer herzustellen.
+
+\section{Angriff durchführen}
