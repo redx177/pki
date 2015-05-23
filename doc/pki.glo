@@ -14,9 +14,10 @@
 \glossaryentry{IRC?\glossentry{glos:ircLabel}|setentrycounter[]{page}\glsnumberformat}{23}
 \glossaryentry{DNS?\glossentry{glos:dnsLabel}|setentrycounter[]{page}\glsnumberformat}{24}
 \glossaryentry{Firewall?\glossentry{glos:firewallLabel}|setentrycounter[]{page}\glsnumberformat}{24}
-\glossaryentry{RFID?\glossentry{glos:rfidLabel}|setentrycounter[]{page}\glsnumberformat}{28}
-\glossaryentry{VOIP?\glossentry{glos:voipLabel}|setentrycounter[]{page}\glsnumberformat}{28}
-\glossaryentry{SMTP?\glossentry{glos:smtpLabel}|setentrycounter[]{page}\glsnumberformat}{28}
-\glossaryentry{DNS?\glossentry{glos:dnsLabel}|setentrycounter[]{page}\glsnumberformat}{28}
 \glossaryentry{IRC?\glossentry{glos:ircLabel}|setentrycounter[]{page}\glsnumberformat}{28}
-\glossaryentry{Firewall?\glossentry{glos:firewallLabel}|setentrycounter[]{page}\glsnumberformat}{28}
+\glossaryentry{RFID?\glossentry{glos:rfidLabel}|setentrycounter[]{page}\glsnumberformat}{34}
+\glossaryentry{VOIP?\glossentry{glos:voipLabel}|setentrycounter[]{page}\glsnumberformat}{34}
+\glossaryentry{SMTP?\glossentry{glos:smtpLabel}|setentrycounter[]{page}\glsnumberformat}{34}
+\glossaryentry{DNS?\glossentry{glos:dnsLabel}|setentrycounter[]{page}\glsnumberformat}{34}
+\glossaryentry{IRC?\glossentry{glos:ircLabel}|setentrycounter[]{page}\glsnumberformat}{34}
+\glossaryentry{Firewall?\glossentry{glos:firewallLabel}|setentrycounter[]{page}\glsnumberformat}{34}

@@ -62,6 +62,20 @@
   \field{urlyear}{2015}
 \endentry
 
+\entry{Botnet__Wikipedia_2015-05-22}{online}{}
+  \field{sortinit}{B}
+  \field{title}{Botnet – Wikipedia}
+  \verb{url}
+  \verb https://de.wikipedia.org/wiki/Botnet
+  \endverb
+  \verb{file}
+  \verb :./references/Botnet – Wikipedia.html:html
+  \endverb
+  \field{urlday}{22}
+  \field{urlmonth}{05}
+  \field{urlyear}{2015}
+\endentry
+
 \entry{Caller_ID_Spoofing_w_Asterisk_Allan_Feid_2015-05-18}{online}{}
   \field{sortinit}{C}
   \field{title}{Caller ID Spoofing w/ Asterisk | Allan Feid}
@@ -220,6 +234,22 @@
   \verb :./references/Versteckte Botschaften in Logos.html:html
   \endverb
   \field{urlday}{16}
+  \field{urlmonth}{05}
+  \field{urlyear}{2015}
+\endentry
+
+\entry{Was_sind_Phishing_emails_2015-05-22}{online}{}
+  \field{sortinit}{W}
+  \field{title}{Was sind Phishing emails - Alles \"uber Phishing mails |
+  Computerfuzzy.de}
+  \verb{url}
+  \verb http://www.computerfuzzy.de/phishing-mails-beispiele/
+  \endverb
+  \verb{file}
+  \verb :./references/Was sind Phishing emails - Alles über Phishing mails | C
+  \verb omputerfuzzy.de.html:html
+  \endverb
+  \field{urlday}{22}
   \field{urlmonth}{05}
   \field{urlyear}{2015}
 \endentry

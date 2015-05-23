@@ -1,19 +1,19 @@
 \setcounter{secnumdepth}{3}
 \chapter{Phishing}
 Bei Phishing handelt es sich um eine Unterart des Social Engineerings. Bislang wurden stets einzelne, ausgewählte Opfer angegriffen.
-Beim Phishing wird über Spam E-Mails, \Gls{glos:ircLabel} Chats oder soziale Plattformen eine grosse Anzahl an Opfer angeschrieben in der Hoffnung, dass einige dem Angriff zum Opfer fallen. Es wird versucht, die Angegriffenen auf präparierte Webseiten zu locken, etwas zu verkaufen oder eine sicherheitstechnische Schwachstelle auszunutzen.
+Phishing versucht über Spam E-Mails, \Gls{glos:ircLabel} Chats oder soziale Plattformen eine grosse Anzahl an Opfer anzuschreiben in der Hoffnung, dass einige dem Angriff zum Opfer fallen. Es wird versucht, die Angegriffenen auf präparierte Webseiten zu locken, etwas zu verkaufen oder eine sicherheitstechnische Schwachstelle auszunutzen.
 
 Den Ablauf eines Angriffes kann in folgende Schritte aufgeteilt werden:
 \begin{itemize}
-\item Informationssammlung und festlegung der Zielgruppe
+\item Informationssammlung und Festlegung der Zielgruppe
 \item Kommnunikationsmodel ausarbeiten
 \item Angriff vorbereiten und durchführen
 \end{itemize}
 
-Auch wenn man eine Gruppe als Ziel hat und nicht eine ausgewühlte Person, gelten die selben Techniken wie im Kapitel \ref{sec:socialengineering} Social Engineering beschrieben.
+Auch wenn man eine Gruppe als Ziel hat und nicht eine ausgewählte Person, können die selben Techniken wie im Kapitel \ref{sec:socialengineering} \nameref{sec:socialengineering} beschrieben verwendet werden.
 
 \section{Informationssammlung und Zielgruppe}
-Möchte man ein Angriff vorbereiten muss man wissen, wer seine Zielgruppe ist.  Eine Einteilung ist in folgende Bereiche möglich:
+Möchte man ein Angriff vorbereiten muss man wissen, wer seine Zielgruppe ist. Eine Einteilung ist in folgende Bereiche möglich:
 \begin{itemize}
 \item Geschlecht
 \item Alter
@@ -22,7 +22,9 @@ Möchte man ein Angriff vorbereiten muss man wissen, wer seine Zielgruppe ist.  
 \item etc.
 \end{itemize}
 
-Mit einer Phishing-Nachricht muss das interesse des Opfers geweckt werden, so dass er/sie auf die Nachricht antwortet oder auf einen weiterführenden Link klickt. Dazu müssen Informationen gesammelt werden, was die Interessen, stärken und schwächen der Zielgruppe ist. Diese Informationen werden nachher weiter verwendet um ein geeignetes Kommunikationsmodell auszuarbeiten.
+Mit einer Phishing-Nachricht muss das Interesse des Opfers geweckt werden, so dass er/sie auf die Nachricht antwortet oder auf einen weiterführenden Link klickt. Dazu müssen Informationen gesammelt werden, was die Interessen, stärken und schwächen der Zielgruppe ist. Diese Informationen werden nachher weiter verwendet um ein geeignetes Kommunikationsmodell auszuarbeiten.
+
+Alternativ kann Gier oder Angst verwendet werden um das Interesse zu wecken. Dann kommen die Nachrichten meistens von reichen Ölscheichen oder Inkasso Unternehmen.
 
 \section{Kommunikationsmodell}
 Wie im Abschnitt \ref{sec:socialengineering:kommunikation:kommunikationsmodell} beschrieben besteht ein Kommunikationsmodell aus folgenden Teilen:
@@ -181,4 +183,105 @@ Die gezeigten Sicherheitslücken sind mittlerweile behoben. Jedoch werden stetig
 Abhängig vom gewählten Kommunikationskanal muss eine Nachricht ausgearbeitet werden, welche die ausgewählte Zielgruppe möglichst stark anspricht.
 Es können die Techniken des Elizitieren, welche im Abschnitt \ref{sec:Elizitieren:techniken} besprochen wurden, angewendet werden um vertrauen mit dem Opfer herzustellen.
 
+Ein oft verwendetes Thema für ein Phishing E-Mail ist zum Beispiel Kreditkarten-Daten. Das gefälschten Nachrichten kommen im Namen von E-Bay, PayPal, MasterCard oder einer anderen Anbieter. Es wird dabei druck gemacht, dass die Kreditkarte bald abläuft oder bereits abgelaufen ist und der Account gesperrt werden kann wenn nichts unternommen wird. 
+
+Andere Phishing Angriffe fälschen Sociale Plattformen wie Facebook, Twitter oder Instagram. Darin wird auf eine Nachricht eines Freundes verwiesen oder es wird mitgeteilt, dass eine eigene Nachricht an einen Freund nicht übermittelt werden konnte. Dazu hat es einen betrügerischen Link, der auf eine gefälschte Seite der Platform führt.
+
+Wieder andere Phishing E-Mails versuchen die Gier der Menschen anzusprechen, indem sie schnelles Geld versprechen. Es wird von einem Bankkonto gesprochen das im Ausland liegt und der Besitzer hat keine Möglichkeit auf dieses zuzugreifen. Er bräuchte CHF 100 oder CHF 1000 und das Opfer bekäme CHF 100'000 zurückbezahlt. Oder die Nachricht kommt von einem Inkasso Unternehmen und es wird mit Verzeigungen oder Schadensersatzforderungen gedroht.
+
+Es wird auch versucht, der Benutzer zum herunterladen einer Datei zu bewegen. Diese ist entweder über einen Link zu erreichen oder direkt dem E-Mail angehängt. Meistens handelt es sich dabei um einen Virus, Trojanisches Pferd oder ähnliches. 
+
 \section{Angriff durchführen}
+Um eine grosse Masse an Nachrichten zu versenden reicht es nicht aus wenn der Angreifer sie selber versendet. Um viele Mitteilungen zu versenden verwenden die Phishers Bot-Netze. Das ist eine Ansammlung von Computern von ahnungslosen Personen. Die Computer sind virenversäucht und können ferngesteuert verwendet werden um Nachrichten zu versenden.
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.6\textwidth]{images/botnet.png}
+  \caption{Entstehung und Verwendung eines Bot-Netzes\footcite{Botnet__Wikipedia_2015-05-22}}
+  \label{fig:phishing:angriffdurchfueren:botnetz}
+\end{figure}
+Das Bot-Netz wird über Viren aufgebaut. Wenn das Netz steht, erteilt der Besitzer des Netzes auf Anfrage und Bezahlung eines Phishers den Auftrag, massenhaft E-Mails, \Gls{glos:ircLabel}-Nachrichten oder Kurznachrichten zu versenden. Diese Methode wird \textit{Command \& Control} genannt, da eine Person die verseuchten Computer fernsteuert.
+
+Benötigt für den Angriff werden noch die Adressen der Zielpersonen. Riesige Listen mit E-Mail Adressen können im Internet heruntergeladen oder gekauft werden. Dazu gibt es einschlägige Internetseiten und Foren. 
+
+Wenn man eine klare Zielgruppe hat, eignen sich die Sozialen Plattformen als Angriffsplatform. Es gibt gehackte Gruppen und Fanseiten, deren Abonnenten man , wiederum gegen Bezahlung, anschreiben kann. Der Vorteil daran ist, dass diese Gruppen ein gemeinsames Interesse haben und so gegen eine passende Phishing Nachricht sehr anfällig sind.
+
+\section{Beispiele}
+In diesem Abschnitt werden einige Beispiele für Phishing Nachrichten und betrügerischen Webseiten gezeigt\footcite{Was_sind_Phishing_emails_2015-05-22}.
+
+\subsection{Facebook}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth]{images/phishing-beispiel-facebook.jpg}
+  \caption{Facebook Phishing E-Mail}
+  \label{fig:phishing:beispiele:facebook}
+\end{figure}
+
+Die Nachricht informiert den Benutzer über eine unzustellbare Facebook Nachricht. Der Link sieht aus, als zeige er auf tatsächlich auf Facebook, führt jedoch auf eine ganz andere Seite. 
+
+\subsection{Inkasso Firma}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth]{images/phishing-beispiel-inkasso.jpg}
+  \caption{Inkasso Phishing E-Mail}
+  \label{fig:phishing:beispiele:inkasso}
+\end{figure}
+
+Die Opfer werden mit einem 100 € Gutschrift angelockt. Fährt man mit der Maus über den Link ist nicht ersichtlich, wo der klick hinführt, da das Ziel unkenntlich gemacht wurde durch eine \Gls{urlLabel} welche den User auf eine weitere Seite weitergeleitet.
+
+\subsection{Paypal (einfach)}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth]{images/phishing-beispiel-paypal1.jpg}
+  \caption{Einfaches PayPal Phishing E-Mail}
+  \label{fig:phishing:beispiele:paypaleinfachmail}
+\end{figure}
+
+Dieses Phishing E-Mail ist sehr einfach gemacht. Der Inhalt ist sehr schlicht und anstelle eines verweises auf eine Webseite ist ein Formular angehängt. Dadurch muss nicht noch ein Webserver betrieben. Das Formular kann in jedem Webbrowser geöffnet werden und sieht folgendermassen aus:
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth]{images/phishing-beispiel-paypal2.jpg}
+  \caption{Formular des PayPal Phishing E-Mails}
+  \label{fig:phishing:beispiele:paypaleinfachformular}
+\end{figure}
+
+Das Formular fragt persönliche Daten ab und sendet es an den Angreifer.
+
+\subsection{Paypal (fortgeschritten)}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth]{images/phishing-beispiel-paypal3.jpg}
+  \caption{Fortgeschrittenes PayPal Phishing E-Mail}
+  \label{fig:phishing:beispiele:paypalfortgeschrittenemail}
+\end{figure}
+Dieses E-Mail ist wesentlich besser gemacht als jenes aus dem vorhergegangenen Abschnitt. Es beinhaltet das Logo und wirkt vertrauenswürdiger. Die Absenderadresse \textit{konflikt@paypal.com} ist gespoofed (siehe Abschnitt \ref{sec:socialengineering:technischeaspekte:idspoofing} \nameref{sec:socialengineering:technischeaspekte:idspoofing})
+
+Beim klick auf \textit{JETZT ZU PAYPAL} sollte der Angriff jedoch erkannt werden.
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth]{images/phishing-beispiel-paypal4.jpg}
+  \caption{Gefälschte PayPal Webseite}
+  \label{fig:phishing:beispiele:paypalfortgeschrittenwebseite}
+\end{figure}
+Die Aufmachung der Seite imitiert genau diejenige von Paypal. Durch einen Blick auf die \Gls{urlLabel} sollte der Angriff jedoch auffliegen.
+
+\subsection{DHL}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth]{images/phishing-beispiel-dhl.jpg}
+  \caption{DHL Phishing E-Mail}
+  \label{fig:phishing:beispiele:dhl}
+\end{figure}
+Auf den ersten Blick ist bei diesem Phishing E-Mail ein Angriff kaum zu erkennen. Auch hier ist die Absenderadresse gespoofed.
+
+\section{Sicherheitsregeln um sich zu schützen}
+Phishing baut auf der Unwissenheit und Unsicherheit von den Benutzern auf. Mit einigen einfachen Regeln kann man sich gut vor Angriffen schützen\footcite{Was_ist_Phishinig_2015-05-23}:
+\begin{itemize}
+\item Patches für das Betriebssystem installieren sobald diese erscheinen.
+\item Verwendung eines anderen Browsers als Internet Explorer.
+\item Verwendung von aktuellen Antiviren-Software. 
+\item \Glspl{urlLabel} stets von Hand eintippen, anstatt auf einen Link zu klicken.
+\item Wenn sensible Daten verlangt werden muss die Seite stets über HTTPS verschlüsselt sein. Die Zertifikate sollten dabei geprüft werden.
+\item Konten und Auszüge regelmässig kontrollieren und Missbräuche melden.
+\item Verdächtige E-Mails den Sicherheitsunternehmen und lokalen Behörden melden.
+\end{itemize}

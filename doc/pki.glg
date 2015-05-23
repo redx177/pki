@@ -1,7 +1,7 @@
 This is makeindex, version 2.15 [TeX Live 2013] (kpathsea + Thai support).
 Scanning style file ./pki.ist.............................done (29 attributes redefined, 0 ignored).
-Scanning input file pki.glo....done (22 entries accepted, 0 rejected).
+Scanning input file pki.glo....done (23 entries accepted, 0 rejected).
 Sorting entries....done (107 comparisons).
-Generating output file pki.gls....done (28 lines written, 0 warnings).
+Generating output file pki.gls....done (29 lines written, 0 warnings).
 Output written in pki.gls.
 Transcript written in pki.glg.

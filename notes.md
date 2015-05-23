@@ -133,6 +133,15 @@
     - client side
     - server side
     - enterprice
+- Aufbau
+    - Informationen sammeln / Zielgruppe festlegen
+    - Kommunikationsmodell
+    - Angriff vorbereiten
+        - Angriffsvektoren
+        - Nachricht ausarbeiten
+    - Angriff durchführen
+- http://www.srf.ch/konsum/services/phishing-mails-die-nummer-1-der-internetbetrugsversuche
+- https://www.avira.com/de/support-what-is-phishing
 
 
 # Else
