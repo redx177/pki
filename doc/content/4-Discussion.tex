@@ -55,6 +55,7 @@ Der Angriff besteht daraus, das Opfer aus einer Nachricht heraus auf ein gewüns
 \item Hidden Attacke
 \item Observing Customer Data
 \item Client-side vulnerability
+\item Fake Certificates
 \end{itemize}
 
 Die Verschiedenen Attacken werden nun genauer beschrieben.
@@ -178,6 +179,78 @@ Die Datei \textit{wmp2.wmz} konnte dabei ein Java Applet sein. Das ist ein Java 
 Damit kann jeglicher Schadcode ausgeführt werden. Sprich ein Hacker kann volle Kontrolle über einen Computer erlagen.
 
 Die gezeigten Sicherheitslücken sind mittlerweile behoben. Jedoch werden stetig neue Fehler in Programmen gefunden, welche zur ausführung von Schadcode verwendet werden kann.
+
+\subsubsection{Fake Certificates}
+In Phishing E-Mails werden oft Kreditkarten- oder andere sensible Daten angefragt. Diese sollten stehts verschlüsselt übertragen werden. Dazu gibt es die verschlüsselte Kommunikation über \Gls{httpsLabel}. Es sollte stets überprüft werden, ob eine gültige \Gls{httpsLabel} Verbindung steht, wenn solche Daten eingegeben werden. Oft setzten Angreifer gefälschte Zertifikate ein. Diese werden vom Browser überprüft und meistens als \textit{nicht vertrauenswürdig} eingestuft. Wenn dies jedoch nicht überprüft wird kann eine Attacke erfolgreich sein.
+
+Nachfolgend wird beschrieben, wie man ein sicheres Zertifikat von einem unsicheren unterscheiden kann\footcite{Phishing_and_Certificates_2015-05-23}. Die gefälschte \Gls{urlLabel} des Angreifers lautet \textit{thebeneficial.blueville.org}. Das Original ist \textit{www.thebeneficial.com}.
+
+\begin{figure}[htb]
+  \begin{subfigure}[b]{.30\linewidth}
+    \centering
+    \includegraphics[width=0.9\linewidth]{images/https-chrome-none.png}
+    \caption{Kein Zertifikat. Unsicher!}
+    \label{fig:phishing:angriffvorbereiten:angriffsvektoren:fakecertificates:chrome:none}
+  \end{subfigure}%
+    \begin{subfigure}[b]{.30\linewidth}
+      \centering
+      \includegraphics[width=0.9\linewidth]{images/https-chrome-fake.png}
+      \caption{Gefälschtes Zertifikat. Unsicher!}
+      \label{fig:phishing:angriffvorbereiten:angriffsvektoren:fakecertificates:chrome:fake}
+    \end{subfigure}
+	\begin{subfigure}[b]{.30\linewidth}
+		\centering
+		\includegraphics[width=0.9\linewidth]{images/https-chrome-secure.png}
+		\caption{Sicheres Zertifikat. Sicher!}
+		\label{fig:phishing:angriffvorbereiten:angriffsvektoren:fakecertificates:chrome:secure}
+	\end{subfigure}
+  \caption{Chrome \Gls{urlLabel} anzeige}
+  \label{fig:phishing:angriffvorbereiten:angriffsvektoren:fakecertificates:chrome}
+\end{figure}
+
+\begin{figure}[htb]
+  \begin{subfigure}[b]{.30\linewidth}
+    \centering
+    \includegraphics[width=0.9\linewidth]{images/https-firefox-none.png}
+    \caption{Kein Zertifikat. Unsicher!}
+    \label{fig:phishing:angriffvorbereiten:angriffsvektoren:fakecertificates:firefox:none}
+  \end{subfigure}%
+    \begin{subfigure}[b]{.30\linewidth}
+      \centering
+      \includegraphics[width=0.9\linewidth]{images/https-firefox-fake.png}
+      \caption{Gefälschtes Zertifikat. Unsicher!}
+      \label{fig:phishing:angriffvorbereiten:angriffsvektoren:fakecertificates:firefox:secure}
+    \end{subfigure}
+	\begin{subfigure}[b]{.30\linewidth}
+		\centering
+		\includegraphics[width=0.9\linewidth]{images/https-firefox-secure.png}
+		\caption{Sicheres Zertifikat. Sicher!}
+		\label{fig:phishing:angriffvorbereiten:angriffsvektoren:fakecertificates:firefox:secure}
+	\end{subfigure}
+  \caption{Firefox \Gls{urlLabel} anzeige}
+  \label{fig:phishing:angriffvorbereiten:angriffsvektoren:fakecertificates:firefox}
+\end{figure}
+
+Die Zertifikate können im Browser angeschaut werden. Nun ein Vergleich eines originalen (links) mit einem gefälschten (rechts) Zertifikat.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth]{images/https-certificate-comparision.png}
+  \caption{Zertifikatsvergleich}
+  \label{fig:phishing:angriffvorbereiten:angriffsvektoren:fakecertificates:certificatecomparison}
+\end{figure}
+
+Zertifikate werden von \Glspl{caLabel} ausgestellt. Im Browser sind die vertrauenswürdigen \Glspl{caLabel} gespeichert. Dass Zertifikat des Angreifers wurde in dem Fall von keiner \Gls{caLabel} ausgestellt, welcher der Browser vertraut. Deshalb wird es als unsicher betrachtet.
+
+Der Benutzer kann seinem Browser mitteilen, dass er dieser \Gls{caLabel} vertraut. Damit wird das Zertifikat der \Gls{caLabel} als vertrauenswürdig eingestuft und damit auch alle Zertifikate welche von der \Gls{caLabel} ausgestellt wurden. Dies sollte nur gemacht werden, wenn man dem Absender vertraut. Wenn man nicht aufpasst kann folgendes passieren:
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.4\textwidth]{images/https-chrome-falsesecure.png}
+  \caption{Unsicheres Zertifikat wird als sicher angezeigt}
+  \label{fig:phishing:angriffvorbereiten:angriffsvektoren:fakecertificates:chrome:falsesecure}
+\end{figure}
+Dieses zuerst unsichere Zertifikat wird nun als sicher angezeigt. Es wird nicht nur dem Zertifikat von \textit{thebeneficial.blueyville.org} vertraut, sondern allen Zertifikaten welche von der unsicheren \Gls{caLabel} ausgestellt wurden.
 
 \subsection{Nachricht ausarbeiten}
 Abhängig vom gewählten Kommunikationskanal muss eine Nachricht ausgearbeitet werden, welche die ausgewählte Zielgruppe möglichst stark anspricht.

@@ -176,6 +176,20 @@
   \field{urlyear}{2015}
 \endentry
 
+\entry{Phishing_and_Certificates_2015-05-23}{online}{}
+  \field{sortinit}{P}
+  \field{title}{Phishing and Certificates}
+  \verb{url}
+  \verb http://vecr.ece.villanova.edu/fmp/bsb/all-bsb.html
+  \endverb
+  \verb{file}
+  \verb :./references/Phishing and Certificates.html:html
+  \endverb
+  \field{urlday}{23}
+  \field{urlmonth}{05}
+  \field{urlyear}{2015}
+\endentry
+
 \entry{The_Effect_of_Perceived_Regional_Accents_on_Individual_Economic_Behavior_2015-05-14}{online}{}
   \field{sortinit}{P}
   \field{title}{PLOS ONE: The Effect of Perceived Regional Accents on
@@ -234,6 +248,20 @@
   \verb :./references/Versteckte Botschaften in Logos.html:html
   \endverb
   \field{urlday}{16}
+  \field{urlmonth}{05}
+  \field{urlyear}{2015}
+\endentry
+
+\entry{Was_ist_Phishinig_2015-05-23}{online}{}
+  \field{sortinit}{W}
+  \field{title}{Was ist Phishinig}
+  \verb{url}
+  \verb https://www.avira.com/de/support-what-is-phishing
+  \endverb
+  \verb{file}
+  \verb :./references/Was ist Phishinig.html:html
+  \endverb
+  \field{urlday}{23}
   \field{urlmonth}{05}
   \field{urlyear}{2015}
 \endentry
