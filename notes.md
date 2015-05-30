@@ -90,6 +90,10 @@
 - Prävention / Schadensbegrenzung:exclamation::exclamation::exclamation:
     - "Sicherheit durch Auflärung" (p21)
     - "Wissen ist Macht" (p21)
+    - Seien sie sich der Werte der Informationen bewusst (p425)
+    - Software aktuell halten (p429)
+    - Entwickeln sie handlungsabläufe (p431)
+        - Prüfung über Audits
     - Passwortrichtlinien (stärker, weniger oft wechseln)
 
 
