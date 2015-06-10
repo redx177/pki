@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.19)  28 MAY 2015 20:49
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.19)  10 JUN 2015 23:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4165,71 +4165,6 @@ text indent by \l@... (toc, 2):  35.03995pt
 number indent by parent (toc, 2):  32.05908pt
 text indent calculated (toc, 2): 27.98325pt
 number indent calculated (toc, 2): 32.05908pt
-number indent by \l@... (toc, 0):  0.0pt
-text indent by \l@... (toc, 0):  16.42499pt
-number indent by parent (toc, 0):  0.0pt
-text indent calculated (toc, 0): 12.59247pt
-number indent calculated (toc, 0): 0.0pt
-number indent by \l@... (toc, 1):  16.42499pt
-text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  12.59247pt
-text indent calculated (toc, 1): 19.46661pt
-number indent calculated (toc, 1): 12.59247pt
-number indent by \l@... (toc, 1):  16.42499pt
-text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  12.59247pt
-text indent calculated (toc, 1): 19.46661pt
-number indent calculated (toc, 1): 12.59247pt
-number indent by \l@... (toc, 1):  16.42499pt
-text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  12.59247pt
-text indent calculated (toc, 1): 19.46661pt
-number indent calculated (toc, 1): 12.59247pt
-number indent by \l@... (toc, 2):  41.61002pt
-text indent by \l@... (toc, 2):  35.03995pt
-number indent by parent (toc, 2):  32.05908pt
-text indent calculated (toc, 2): 27.98325pt
-number indent calculated (toc, 2): 32.05908pt
-number indent by \l@... (toc, 2):  41.61002pt
-text indent by \l@... (toc, 2):  35.03995pt
-number indent by parent (toc, 2):  32.05908pt
-text indent calculated (toc, 2): 27.98325pt
-number indent calculated (toc, 2): 32.05908pt
-number indent by \l@... (toc, 1):  16.42499pt
-text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  12.59247pt
-text indent calculated (toc, 1): 19.46661pt
-number indent calculated (toc, 1): 12.59247pt
-number indent by \l@... (toc, 1):  16.42499pt
-text indent by \l@... (toc, 1):  25.18501pt
-number indent by parent (toc, 1):  12.59247pt
-text indent calculated (toc, 1): 19.46661pt
-number indent calculated (toc, 1): 12.59247pt
-number indent by \l@... (toc, 2):  41.61002pt
-text indent by \l@... (toc, 2):  35.03995pt
-number indent by parent (toc, 2):  32.05908pt
-text indent calculated (toc, 2): 27.98325pt
-number indent calculated (toc, 2): 32.05908pt
-number indent by \l@... (toc, 2):  41.61002pt
-text indent by \l@... (toc, 2):  35.03995pt
-number indent by parent (toc, 2):  32.05908pt
-text indent calculated (toc, 2): 27.98325pt
-number indent calculated (toc, 2): 32.05908pt
-number indent by \l@... (toc, 2):  41.61002pt
-text indent by \l@... (toc, 2):  35.03995pt
-number indent by parent (toc, 2):  32.05908pt
-text indent calculated (toc, 2): 27.98325pt
-number indent calculated (toc, 2): 32.05908pt
-number indent by \l@... (toc, 2):  41.61002pt
-text indent by \l@... (toc, 2):  35.03995pt
-number indent by parent (toc, 2):  32.05908pt
-text indent calculated (toc, 2): 27.98325pt
-number indent calculated (toc, 2): 32.05908pt
-number indent by \l@... (toc, 2):  41.61002pt
-text indent by \l@... (toc, 2):  35.03995pt
-number indent by parent (toc, 2):  32.05908pt
-text indent calculated (toc, 2): 27.98325pt
-number indent calculated (toc, 2): 32.05908pt
 number indent by \l@... (toc, 1):  16.42499pt
 text indent by \l@... (toc, 1):  25.18501pt
 number indent by parent (toc, 1):  12.59247pt
@@ -4240,6 +4175,81 @@ text indent by \l@... (toc, 0):  16.42499pt
 number indent by parent (toc, 0):  0.0pt
 text indent calculated (toc, 0): 12.59247pt
 number indent calculated (toc, 0): 0.0pt
+number indent by \l@... (toc, 1):  16.42499pt
+text indent by \l@... (toc, 1):  25.18501pt
+number indent by parent (toc, 1):  12.59247pt
+text indent calculated (toc, 1): 19.46661pt
+number indent calculated (toc, 1): 12.59247pt
+number indent by \l@... (toc, 1):  16.42499pt
+text indent by \l@... (toc, 1):  25.18501pt
+number indent by parent (toc, 1):  12.59247pt
+text indent calculated (toc, 1): 19.46661pt
+number indent calculated (toc, 1): 12.59247pt
+number indent by \l@... (toc, 1):  16.42499pt
+text indent by \l@... (toc, 1):  25.18501pt
+number indent by parent (toc, 1):  12.59247pt
+text indent calculated (toc, 1): 19.46661pt
+number indent calculated (toc, 1): 12.59247pt
+number indent by \l@... (toc, 2):  41.61002pt
+text indent by \l@... (toc, 2):  35.03995pt
+number indent by parent (toc, 2):  32.05908pt
+text indent calculated (toc, 2): 27.98325pt
+number indent calculated (toc, 2): 32.05908pt
+number indent by \l@... (toc, 2):  41.61002pt
+text indent by \l@... (toc, 2):  35.03995pt
+number indent by parent (toc, 2):  32.05908pt
+text indent calculated (toc, 2): 27.98325pt
+number indent calculated (toc, 2): 32.05908pt
+number indent by \l@... (toc, 1):  16.42499pt
+text indent by \l@... (toc, 1):  25.18501pt
+number indent by parent (toc, 1):  12.59247pt
+text indent calculated (toc, 1): 19.46661pt
+number indent calculated (toc, 1): 12.59247pt
+number indent by \l@... (toc, 1):  16.42499pt
+text indent by \l@... (toc, 1):  25.18501pt
+number indent by parent (toc, 1):  12.59247pt
+text indent calculated (toc, 1): 19.46661pt
+number indent calculated (toc, 1): 12.59247pt
+number indent by \l@... (toc, 2):  41.61002pt
+text indent by \l@... (toc, 2):  35.03995pt
+number indent by parent (toc, 2):  32.05908pt
+text indent calculated (toc, 2): 27.98325pt
+number indent calculated (toc, 2): 32.05908pt
+number indent by \l@... (toc, 2):  41.61002pt
+text indent by \l@... (toc, 2):  35.03995pt
+number indent by parent (toc, 2):  32.05908pt
+text indent calculated (toc, 2): 27.98325pt
+number indent calculated (toc, 2): 32.05908pt
+number indent by \l@... (toc, 2):  41.61002pt
+text indent by \l@... (toc, 2):  35.03995pt
+number indent by parent (toc, 2):  32.05908pt
+text indent calculated (toc, 2): 27.98325pt
+number indent calculated (toc, 2): 32.05908pt
+number indent by \l@... (toc, 2):  41.61002pt
+text indent by \l@... (toc, 2):  35.03995pt
+number indent by parent (toc, 2):  32.05908pt
+text indent calculated (toc, 2): 27.98325pt
+number indent calculated (toc, 2): 32.05908pt
+number indent by \l@... (toc, 2):  41.61002pt
+text indent by \l@... (toc, 2):  35.03995pt
+number indent by parent (toc, 2):  32.05908pt
+text indent calculated (toc, 2): 27.98325pt
+number indent calculated (toc, 2): 32.05908pt
+number indent by \l@... (toc, 1):  16.42499pt
+text indent by \l@... (toc, 1):  25.18501pt
+number indent by parent (toc, 1):  12.59247pt
+text indent calculated (toc, 1): 19.46661pt
+number indent calculated (toc, 1): 12.59247pt
+number indent by \l@... (toc, 0):  0.0pt
+text indent by \l@... (toc, 0):  16.42499pt
+number indent by parent (toc, 0):  0.0pt
+text indent calculated (toc, 0): 12.59247pt
+number indent calculated (toc, 0): 0.0pt
+number indent by \l@... (toc, 1):  16.42499pt
+text indent by \l@... (toc, 1):  25.18501pt
+number indent by parent (toc, 1):  12.59247pt
+text indent calculated (toc, 1): 19.46661pt
+number indent calculated (toc, 1): 12.59247pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  16.42499pt
 number indent by parent (toc, 0):  0.0pt
@@ -4655,14 +4665,14 @@ Package babel Info: Redefining ngerman shorthand "~
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/se-iso-8859-1.def
 File: se-iso-8859-1.def 2011/12/02 v1.10 stringenc: ISO-8859-1
 )
-<images/shredded-paper.jpg, id=278, 616.704pt x 462.528pt>
+<images/shredded-paper.jpg, id=282, 616.704pt x 462.528pt>
 File: images/shredded-paper.jpg Graphic file (type jpg)
 
 <use images/shredded-paper.jpg>
 Package pdftex.def Info: images/shredded-paper.jpg used on input line 65.
 (pdftex.def)             Requested size: 96.0274pt x 72.01575pt.
 
-<images/reassembled-shredded-paper.jpg, id=279, 401.5pt x 301.125pt>
+<images/reassembled-shredded-paper.jpg, id=283, 401.5pt x 301.125pt>
 File: images/reassembled-shredded-paper.jpg Graphic file (type jpg)
 
 <use images/reassembled-shredded-paper.jpg>
@@ -4670,7 +4680,7 @@ Package pdftex.def Info: images/reassembled-shredded-paper.jpg used on input li
 ne 71.
 (pdftex.def)             Requested size: 96.0274pt x 72.01875pt.
 
-<images/two-way-shredded-paper.jpg, id=280, 1606.0pt x 1071.00125pt>
+<images/two-way-shredded-paper.jpg, id=284, 1606.0pt x 1071.00125pt>
 File: images/two-way-shredded-paper.jpg Graphic file (type jpg)
 
 <use images/two-way-shredded-paper.jpg>
@@ -4695,7 +4705,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 88.
 
-<images/basket.png, id=286, 879.285pt x 642.4pt>
+<images/basket.png, id=290, 879.285pt x 642.4pt>
 File: images/basket.png Graphic file (type png)
  <use images/basket.png>
 Package pdftex.def Info: images/basket.png used on input line 97.
@@ -4714,7 +4724,7 @@ Package babel Info: Redefining ngerman shorthand "~
 
 
 [8 <./images/two-way-shredded-paper.jpg> <./images/basket.png>] (./pki.mw)
-<images/dradis.png, id=293, 805.0075pt x 676.5275pt>
+<images/dradis.png, id=297, 805.0075pt x 676.5275pt>
 File: images/dradis.png Graphic file (type png)
  <use images/dradis.png>
 Package pdftex.def Info: images/dradis.png used on input line 108.
@@ -4741,7 +4751,7 @@ Package babel Info: Redefining ngerman shorthand "~
 
 
 [9 <./images/dradis.png>] (./pki.mw)
-<images/shannon-weaver-model.png, id=299, 703.62875pt x 420.57124pt>
+<images/shannon-weaver-model.png, id=303, 703.62875pt x 420.57124pt>
 File: images/shannon-weaver-model.png Graphic file (type png)
 
 <use images/shannon-weaver-model.png>
@@ -4872,7 +4882,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 254.
 
-<images/mikroexpression-wut.jpg, id=342, 702.625pt x 697.60625pt>
+<images/mikroexpression-wut.jpg, id=346, 702.625pt x 697.60625pt>
 File: images/mikroexpression-wut.jpg Graphic file (type jpg)
 
 <use images/mikroexpression-wut.jpg>
@@ -4880,7 +4890,7 @@ Package pdftex.def Info: images/mikroexpression-wut.jpg used on input line 264.
 
 (pdftex.def)             Requested size: 64.01935pt x 63.5589pt.
 
-<images/mikroexpression-ekel.jpg, id=343, 358.33875pt x 416.55624pt>
+<images/mikroexpression-ekel.jpg, id=347, 358.33875pt x 416.55624pt>
 File: images/mikroexpression-ekel.jpg Graphic file (type jpg)
 
 <use images/mikroexpression-ekel.jpg>
@@ -4888,7 +4898,7 @@ Package pdftex.def Info: images/mikroexpression-ekel.jpg used on input line 270
 .
 (pdftex.def)             Requested size: 64.01935pt x 74.41754pt.
 
-<images/mikroexpression-verachtung.png, id=344, 210.7875pt x 240.9pt>
+<images/mikroexpression-verachtung.png, id=348, 210.7875pt x 240.9pt>
 File: images/mikroexpression-verachtung.png Graphic file (type png)
 
 <use images/mikroexpression-verachtung.png>
@@ -4896,7 +4906,7 @@ Package pdftex.def Info: images/mikroexpression-verachtung.png used on input li
 ne 276.
 (pdftex.def)             Requested size: 64.01935pt x 73.16377pt.
 
-<images/mikroexpression-ueberraschung.png, id=345, 210.7875pt x 240.9pt>
+<images/mikroexpression-ueberraschung.png, id=349, 210.7875pt x 240.9pt>
 File: images/mikroexpression-ueberraschung.png Graphic file (type png)
 
 <use images/mikroexpression-ueberraschung.png>
@@ -4904,7 +4914,7 @@ Package pdftex.def Info: images/mikroexpression-ueberraschung.png used on input
  line 282.
 (pdftex.def)             Requested size: 64.01935pt x 73.16377pt.
 
-<images/mikroexpression-angst.png, id=346, 210.7875pt x 240.9pt>
+<images/mikroexpression-angst.png, id=350, 210.7875pt x 240.9pt>
 File: images/mikroexpression-angst.png Graphic file (type png)
 
 <use images/mikroexpression-angst.png>
@@ -4912,7 +4922,7 @@ Package pdftex.def Info: images/mikroexpression-angst.png used on input line 28
 8.
 (pdftex.def)             Requested size: 64.01935pt x 73.16377pt.
 
-<images/mikroexpression-traurigkeit.png, id=347, 210.7875pt x 240.9pt>
+<images/mikroexpression-traurigkeit.png, id=351, 210.7875pt x 240.9pt>
 File: images/mikroexpression-traurigkeit.png Graphic file (type png)
 
 <use images/mikroexpression-traurigkeit.png>
@@ -4920,7 +4930,7 @@ Package pdftex.def Info: images/mikroexpression-traurigkeit.png used on input l
 ine 294.
 (pdftex.def)             Requested size: 64.01935pt x 73.16377pt.
 
-<images/mikroexpression-glueck.jpg, id=348, 1027.84pt x 752.8125pt>
+<images/mikroexpression-glueck.jpg, id=352, 1027.84pt x 752.8125pt>
 File: images/mikroexpression-glueck.jpg Graphic file (type jpg)
 
 <use images/mikroexpression-glueck.jpg>
@@ -4953,28 +4963,28 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 326.
 
-<images/framing-fedex.jpg, id=361, 903.375pt x 439.6425pt>
+<images/framing-fedex.jpg, id=365, 903.375pt x 439.6425pt>
 File: images/framing-fedex.jpg Graphic file (type jpg)
 
 <use images/framing-fedex.jpg>
 Package pdftex.def Info: images/framing-fedex.jpg used on input line 334.
 (pdftex.def)             Requested size: 153.64444pt x 74.77177pt.
 
-<images/framing-amazon.jpg, id=362, 604.2575pt x 256.96pt>
+<images/framing-amazon.jpg, id=366, 604.2575pt x 256.96pt>
 File: images/framing-amazon.jpg Graphic file (type jpg)
 
 <use images/framing-amazon.jpg>
 Package pdftex.def Info: images/framing-amazon.jpg used on input line 340.
 (pdftex.def)             Requested size: 153.64444pt x 65.33768pt.
 
-<images/framing-toblerone.jpg, id=363, 582.175pt x 250.9375pt>
+<images/framing-toblerone.jpg, id=367, 582.175pt x 250.9375pt>
 File: images/framing-toblerone.jpg Graphic file (type jpg)
 
 <use images/framing-toblerone.jpg>
 Package pdftex.def Info: images/framing-toblerone.jpg used on input line 346.
 (pdftex.def)             Requested size: 153.64444pt x 66.22243pt.
 
-<images/framing-yoga.jpg, id=364, 602.25pt x 261.97874pt>
+<images/framing-yoga.jpg, id=368, 602.25pt x 261.97874pt>
 File: images/framing-yoga.jpg Graphic file (type jpg)
 
 <use images/framing-yoga.jpg>
@@ -5234,7 +5244,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 65.
 
-<images/man-in-the-middle-attacke.png, id=430, 815.045pt x 159.59625pt>
+<images/man-in-the-middle-attacke.png, id=433, 815.045pt x 159.59625pt>
 File: images/man-in-the-middle-attacke.png Graphic file (type png)
 
 <use images/man-in-the-middle-attacke.png>
@@ -5298,12 +5308,6 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 128.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 128.
-
-Overfull \hbox (23.23328pt too wide) in paragraph at lines 129--130
-\T1/lmr/m/n/10.95 (-20) wel-che über die [][][]URL[][] mit-ge-ge-ben wer-den. E
-in Bei-spiel ist www.meinebank.ch?url=www.hacker.ch.
- []
-
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 133.
 Package babel Info: Redefining ngerman shorthand "~
@@ -5371,67 +5375,37 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 183.
 
-<images/https-chrome-none.png, id=477, 231.86626pt x 55.20625pt>
+<images/https-chrome-none.png, id=480, 231.86626pt x 55.20625pt>
 File: images/https-chrome-none.png Graphic file (type png)
 
 <use images/https-chrome-none.png>
 Package pdftex.def Info: images/https-chrome-none.png used on input line 191.
 (pdftex.def)             Requested size: 115.23405pt x 27.43709pt.
 
-<images/https-chrome-fake.png, id=478, 285.065pt x 58.2175pt>
+<images/https-chrome-fake.png, id=481, 285.065pt x 58.2175pt>
 File: images/https-chrome-fake.png Graphic file (type png)
 
 <use images/https-chrome-fake.png>
 Package pdftex.def Info: images/https-chrome-fake.png used on input line 197.
 (pdftex.def)             Requested size: 115.23405pt x 23.53352pt.
 
-<images/https-chrome-secure.png, id=479, 255.95625pt x 56.21pt>
+<images/https-chrome-secure.png, id=482, 255.95625pt x 56.21pt>
 File: images/https-chrome-secure.png Graphic file (type png)
 
 <use images/https-chrome-secure.png>
 Package pdftex.def Info: images/https-chrome-secure.png used on input line 203.
 
 (pdftex.def)             Requested size: 115.23405pt x 25.30626pt.
-
-<images/https-firefox-none.png, id=482, 233.87375pt x 60.225pt>
-File: images/https-firefox-none.png Graphic file (type png)
-
-<use images/https-firefox-none.png>
-Package pdftex.def Info: images/https-firefox-none.png used on input line 214.
-(pdftex.def)             Requested size: 115.23405pt x 29.67407pt.
-
-<images/https-firefox-fake.png, id=483, 280.04625pt x 61.22874pt>
-File: images/https-firefox-fake.png Graphic file (type png)
-
-<use images/https-firefox-fake.png>
-Package pdftex.def Info: images/https-firefox-fake.png used on input line 220.
-(pdftex.def)             Requested size: 115.23405pt x 25.19456pt.
-
-<images/https-firefox-secure.png, id=484, 249.93375pt x 58.2175pt>
-File: images/https-firefox-secure.png Graphic file (type png)
-
-<use images/https-firefox-secure.png>
-Package pdftex.def Info: images/https-firefox-secure.png used on input line 226
-.
-(pdftex.def)             Requested size: 115.23405pt x 26.84166pt.
-
-<images/https-certificate-comparision.png, id=487, 995.72pt x 473.77pt>
-File: images/https-certificate-comparision.png Graphic file (type png)
-
-<use images/https-certificate-comparision.png>
-Package pdftex.def Info: images/https-certificate-comparision.png used on input
- line 238.
-(pdftex.def)             Requested size: 384.10965pt x 182.76707pt.
-Package cleveref Info: loaded `ngerman' language definitions on input line 242.
+Package cleveref Info: loaded `ngerman' language definitions on input line 210.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 242.
+(babel)             in language  on input line 210.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 242.
+(babel)             in language  on input line 210.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 242.
+(babel)             in language  on input line 210.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 242.
+(babel)             in language  on input line 210.
 \openout3 = `pki.mw'.
 
  [27] (./pki.mw)
@@ -5444,23 +5418,53 @@ Package babel Info: Redefining ngerman shorthand "~
 \openout3 = `pki.mw'.
 
 
-<images/https-chrome-falsesecure.png, id=500, 286.06876pt x 56.21pt>
+<images/https-firefox-none.png, id=491, 233.87375pt x 60.225pt>
+File: images/https-firefox-none.png Graphic file (type png)
+
+<use images/https-firefox-none.png>
+Package pdftex.def Info: images/https-firefox-none.png used on input line 214.
+(pdftex.def)             Requested size: 115.23405pt x 29.67407pt.
+
+<images/https-firefox-fake.png, id=492, 280.04625pt x 61.22874pt>
+File: images/https-firefox-fake.png Graphic file (type png)
+
+<use images/https-firefox-fake.png>
+Package pdftex.def Info: images/https-firefox-fake.png used on input line 220.
+(pdftex.def)             Requested size: 115.23405pt x 25.19456pt.
+
+<images/https-firefox-secure.png, id=493, 249.93375pt x 58.2175pt>
+File: images/https-firefox-secure.png Graphic file (type png)
+
+<use images/https-firefox-secure.png>
+Package pdftex.def Info: images/https-firefox-secure.png used on input line 226
+.
+(pdftex.def)             Requested size: 115.23405pt x 26.84166pt.
+
+<images/https-certificate-comparision.png, id=496, 995.72pt x 473.77pt>
+File: images/https-certificate-comparision.png Graphic file (type png)
+
+<use images/https-certificate-comparision.png>
+Package pdftex.def Info: images/https-certificate-comparision.png used on input
+ line 238.
+(pdftex.def)             Requested size: 384.10965pt x 182.76707pt.
+
+<images/https-chrome-falsesecure.png, id=503, 286.06876pt x 56.21pt>
 File: images/https-chrome-falsesecure.png Graphic file (type png)
 
 <use images/https-chrome-falsesecure.png>
 Package pdftex.def Info: images/https-chrome-falsesecure.png used on input line
  249.
 (pdftex.def)             Requested size: 170.71394pt x 33.54442pt.
-Package cleveref Info: loaded `ngerman' language definitions on input line 255.
+Package cleveref Info: loaded `ngerman' language definitions on input line 254.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 255.
+(babel)             in language  on input line 254.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 255.
+(babel)             in language  on input line 254.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 255.
+(babel)             in language  on input line 254.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 255.
+(babel)             in language  on input line 254.
 \openout3 = `pki.mw'.
 
  [28 <./images/https-chrome-none.png> <./images/https-chrome-fake.png> <./image
@@ -5492,7 +5496,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 267.
 
-<images/botnet.png, id=507, 401.5pt x 310.15875pt>
+<images/botnet.png, id=510, 401.5pt x 310.15875pt>
 File: images/botnet.png Graphic file (type png)
  <use images/botnet.png>
 Package pdftex.def Info: images/botnet.png used on input line 271.
@@ -5527,7 +5531,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 284.
 
-<images/phishing-beispiel-facebook.jpg, id=516, 602.25pt x 361.35pt>
+<images/phishing-beispiel-facebook.jpg, id=519, 602.25pt x 361.35pt>
 File: images/phishing-beispiel-facebook.jpg Graphic file (type jpg)
 
 <use images/phishing-beispiel-facebook.jpg>
@@ -5554,7 +5558,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 294.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 294.
- <images/phishing-beispiel-inkasso.jpg, id=524, 602.25pt x 337.26pt>
+ <images/phishing-beispiel-inkasso.jpg, id=527, 602.25pt x 337.26pt>
 File: images/phishing-beispiel-inkasso.jpg Graphic file (type jpg)
 
 <use images/phishing-beispiel-inkasso.jpg>
@@ -5580,7 +5584,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 304.
 
-<images/phishing-beispiel-paypal1.jpg, id=530, 602.25pt x 401.5pt>
+<images/phishing-beispiel-paypal1.jpg, id=534, 602.25pt x 401.5pt>
 File: images/phishing-beispiel-paypal1.jpg Graphic file (type jpg)
 
 <use images/phishing-beispiel-paypal1.jpg>
@@ -5588,7 +5592,7 @@ Package pdftex.def Info: images/phishing-beispiel-paypal1.jpg used on input lin
 e 307.
 (pdftex.def)             Requested size: 384.10965pt x 256.08304pt.
 
-<images/phishing-beispiel-paypal2.jpg, id=531, 451.6875pt x 392.21532pt>
+<images/phishing-beispiel-paypal2.jpg, id=535, 451.6875pt x 392.21532pt>
 File: images/phishing-beispiel-paypal2.jpg Graphic file (type jpg)
 
 <use images/phishing-beispiel-paypal2.jpg>
@@ -5615,7 +5619,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 323.
 
-<images/phishing-beispiel-paypal3.jpg, id=537, 602.25pt x 561.09625pt>
+<images/phishing-beispiel-paypal3.jpg, id=540, 602.25pt x 561.09625pt>
 File: images/phishing-beispiel-paypal3.jpg Graphic file (type jpg)
 
 <use images/phishing-beispiel-paypal3.jpg>
@@ -5635,7 +5639,7 @@ Package babel Info: Redefining ngerman shorthand "~
 \openout3 = `pki.mw'.
 
  [33 <./images/phishing-beispiel-paypal2.jpg>] (./pki.mw)
-<images/phishing-beispiel-paypal4.jpg, id=544, 602.25pt x 510.90875pt>
+<images/phishing-beispiel-paypal4.jpg, id=547, 602.25pt x 510.90875pt>
 File: images/phishing-beispiel-paypal4.jpg Graphic file (type jpg)
 
 <use images/phishing-beispiel-paypal4.jpg>
@@ -5660,7 +5664,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 341.
 
-<images/phishing-beispiel-dhl.jpg, id=550, 602.25pt x 620.3175pt>
+<images/phishing-beispiel-dhl.jpg, id=553, 602.25pt x 620.3175pt>
 File: images/phishing-beispiel-dhl.jpg Graphic file (type jpg)
 
 <use images/phishing-beispiel-dhl.jpg>
@@ -6537,11 +6541,11 @@ Package logreq Info: Writing requests to 'pki.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 62232 strings out of 493304
- 1296878 string characters out of 6139870
- 1761917 words of memory out of 5000000
+ 62234 strings out of 493304
+ 1296900 string characters out of 6139870
+ 1762907 words of memory out of 5000000
  63536 multiletter control sequences out of 15000+600000
- 150021 words of font info for 231 fonts, out of 8000000 for 9000
+ 150151 words of font info for 232 fonts, out of 8000000 for 9000
  963 hyphenation exceptions out of 8191
  65i,13n,101p,10438b,3249s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
@@ -6556,10 +6560,10 @@ lic/lm/lmri9.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share
 /texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm
 /lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texm
 f/fonts/type1/public/lm/lmtt9.pfb>
-Output written on pki.pdf (48 pages, 4932608 bytes).
+Output written on pki.pdf (48 pages, 4932493 bytes).
 PDF statistics:
- 944 PDF objects out of 1000 (max. 8388607)
- 816 compressed objects within 9 object streams
+ 946 PDF objects out of 1000 (max. 8388607)
+ 818 compressed objects within 9 object streams
  193 named destinations out of 1000 (max. 500000)
  60159 words of extra memory for PDF output out of 61914 (max. 10000000)
 
