@@ -1,9 +1,9 @@
 \setcounter{secnumdepth}{3}
 \chapter{Phishing}
-Bei Phishing handelt es sich um eine Unterart des Social Engineerings. Bislang wurden stets einzelne, ausgewählte Opfer angegriffen.
-Phishing versucht über Spam E-Mails, \Gls{glos:ircLabel} Chats oder soziale Plattformen eine grosse Anzahl an Opfer anzuschreiben in der Hoffnung, dass einige dem Angriff zum Opfer fallen. Es wird versucht die Angegriffenen auf präparierte Webseiten zu locken, etwas zu verkaufen oder eine sicherheitstechnische Schwachstelle auszunutzen.
+Bei Phishing handelt es sich um eine Unterart des Social Engineerings. Im Verlauf der Arbeit wurde bisher lediglich einzelne, ausgewählte Opfer angegriffen.
+Phishing versucht über Spam E-Mails, \Gls{glos:ircLabel} Chats oder soziale Plattformen eine grosse Anzahl an User anzuschreiben in der Hoffnung, dass einige dem Angriff zum Opfer fallen. Es wird versucht die Angegriffenen auf präparierte Webseiten zu locken, etwas zu verkaufen oder eine sicherheitstechnische Schwachstelle auszunutzen\footcite{MELANI_-_Phishing_2015-06-29}.
 
-Den Ablauf eines Angriffes kann in folgende Schritte aufgeteilt werden:
+Den Ablauf eines Angriffes kann in die folgenden Schritte aufgeteilt werden:
 \begin{itemize}
 \item Informationssammlung und Festlegung der Zielgruppe
 \item Kommnunikationsmodel ausarbeiten
@@ -22,20 +22,12 @@ Möchte man ein Angriff vorbereiten, muss man wissen, wer seine Zielgruppe ist. 
 \item etc.
 \end{itemize}
 
-Mit einer Phishing-Nachricht muss das Interesse des Opfers geweckt werden, so dass er/sie auf die Nachricht antwortet, oder auf einen weiterführenden Link klickt. Dazu müssen Informationen gesammelt werden, was die Interessen stärken und schwächen der Zielgruppe ist. Diese Informationen werden nachher weiter verwendet, um ein geeignetes Kommunikationsmodell auszuarbeiten.
+Mit einer Phishing-Nachricht muss das Interesse des Opfers geweckt werden, so dass er/sie auf die Nachricht antwortet, oder auf einen weiterführenden Link klickt. Dazu müssen Informationen über Interessen, Stärken und Schwächen der Zielgruppe gesammelt werden. Diese Daten werden nachher weiter verwendet, um ein geeignetes Kommunikationsmodell auszuarbeiten.
 
 Alternativ kann Gier oder Angst verwendet werden, um das Interesse zu wecken. Dann kommen die Nachrichten meistens von reichen Ölscheichen oder Inkasso Unternehmen.
 
 \section{Kommunikationsmodell}
-Wie im Abschnitt \ref{sec:socialengineering:kommunikation:kommunikationsmodell} beschrieben besteht ein Kommunikationsmodell aus folgenden Teilen:
-\begin{itemize}
-\item Informationsquelle
-\item Übertragung
-\item Kanal
-\item Empfänger
-\item Feedback
-\item Zielort
-\end{itemize}
+Das Im Abschnitt \ref{sec:socialengineering:kommunikation:kommunikationsmodell} beschriebene Kommunikationsmodell lässt sich auch auf das Phishing übertragen.
 
 Die \textit{Informationsquelle} ist normalerweise der Angreifer selber, oder ein Auftraggeber für den Angriff.
 
@@ -46,7 +38,7 @@ Der \textit{Kanal} ist üblicherweise eine Auswahl aus E-Mail,  \Gls{glos:ircLab
 \textit{Empfänger} ist die festgelegte Zielgruppe und der \textit{Zielort} ist oft eine präparierte Webseite, ein Download welcher getätigt werden soll, etc.
 
 \section{Angriff vorbereiten}
-Der Angriff besteht daraus, das Opfer aus einer Nachricht heraus auf ein gewünschtes Ziel zu manövrieren und eine der folgenden Attacken auszuführen:
+Der Angriff besteht daraus, das Opfer aus einer Nachricht heraus auf ein gewünschtes Ziel zu manövrieren und eine der folgenden Attacken auszuführen\footcite{NISR-WP-Phishingv101doc_2015-06-29}:
 \begin{itemize}
 \item Man-in-the-Middle Attacke
 \item URL-Obfuscation
@@ -72,7 +64,7 @@ Bei der \textit{Man-in-the-Middle Attacke} wird der User auf einen Proxy geleite
   \label{fig:phishing:angriffvorbereiten:attacken:maninthemiddleattacke}
 \end{figure}
 
-Um den Benutzer auf den Proxy zu bugsieren, gibt es mehrere Methoden:
+Um den Benutzer auf den Proxy zu locken, gibt es mehrere Methoden\footcite{NISR-WP-Phishingv101doc_2015-06-29}:
 \begin{itemize}
 \item Transparent Proxy
 \item DNS Cache Poisoning
@@ -80,17 +72,17 @@ Um den Benutzer auf den Proxy zu bugsieren, gibt es mehrere Methoden:
 \item Browser Proxy Configuration
 \end{itemize}
 
-Der \textbf{Transparent Proxy} verbindet den Proxy-Server mit dem Gateway des Computers vom Opfer. Sprich wenn der User über seinen Gateway ins Netzwerk geht, wird er automatisch über den Proxy-Server geleitet. Der Vorteil an dieser Attacke ist es, dass nichts am PC des Users manipuliert werden muss.
+Der \textbf{Transparent Proxy} verbindet den Proxy-Server mit dem Gateway des Computers vom Opfer. Sprich wenn der User über seinen Gateway ins Netzwerk geht, wird er automatisch über den Proxy-Server geleitet. Der Vorteil dieser Attacke ist, dass nichts am PC des Users manipuliert werden muss.
 
-Bei \textbf{DNS Cache Poisoning} werden falsche \gls{glos:dnsLabel}-Einträge auf dem Computer des Users oder auf der Netzwerk-\gls{glos:firewallLabel} generiert. Das führt dazu, dass wenn der Benutzer auf die Adresse www.meinebank.ch möchte, er auf dem Proxy-Server landet.
+Bei \textbf{DNS Cache Poisoning} werden falsche \gls{glos:dnsLabel}-Einträge auf dem Computer des Users oder auf der Netzwerk-\gls{glos:firewallLabel} generiert. Das führt dazu, dass wenn der Benutzer beispielsweise auf die Adresse www.meinebank.ch möchte, er auf dem Proxy-Server landet.
 
-\textbf{URL Obfuscation} beschreibt das Maskieren von \Glspl{urlLabel}. Es wird zum Beispiel auf die Seite www.meinebank.ch.cx verlinkt anstelle von www.meinebank.ch. Die Methode wird im Abschnitt \ref{sec:phishing:angriffvorbereiten:attacken:urlobfuscationattacke} näher umschrieben.
+\textbf{URL Obfuscation} beschreibt das Maskieren von \Glspl{urlLabel}. Es wird zum Beispiel auf die Seite www.meinebank.ch.cx verlinkt anstelle von www.meinebank.ch. Die Methode wird im Abschnitt \ref{sec:phishing:angriffvorbereiten:attacken:urlobfuscationattacke} näher beschrieben.
 
 Im Gegensatz zu den anderen Angriffen, muss der Angreifer bei \textbf{Browser Proxy Configuration} vor dem Angriff aktiv werden. Dazu wird im Webbrowser des Opfers der eigene Proxyserver eingetragen, sodass die ganze Kommunikation abgehört werden kann. Der Nutzer merkt dabei nichts, solange er nicht in den Einstellungen des Programms nachschauen geht.
 
 \subsubsection{URL-Obfuscation}
 \label{sec:phishing:angriffvorbereiten:attacken:urlobfuscationattacke}
-Bei der URL-Obfuscation Attacke wird der User auf eine \Gls{urlLabel} gelockt, die der originalen \Gls{urlLabel} zum verwechseln ähnlich sieht. Es gibt verschiedene Möglichkeiten dies zu bewerkstelligen.
+Bei der URL-Obfuscation Attacke wird der User auf eine \Gls{urlLabel} gelockt, die der originalen \Gls{urlLabel} zum verwechseln ähnlich sieht. Es gibt verschiedene Möglichkeiten dies zu bewerkstelligen\footcite{NISR-WP-Phishingv101doc_2015-06-29}.
 \begin{itemize}
 \item Ähnlicher Domainname 
 \item Freundliche Login Namen
@@ -126,21 +118,21 @@ Die letzte hier vorgestellte Methode ist die \textbf{Verschleierung durch Dritta
 \end{itemize}
 
 \subsubsection{Cross-Site-Scripting Attacke}
-Das \Gls{xssLabel} nutzt Sicherheitslücken auf Webseiten aus, die es erlauben Schadcode auszuführen, welche über die \Gls{urlLabel} mitgegeben werden. Ein Beispiel ist www.meinebank.ch?url=www.hacker.ch. Der Benutzer geht dabei wirklich auf die Seite www.meinebank.ch. Wird durch eine Fehler in der Programmierung der Webseite auf auf www.hacker.ch weitergeleitet. Es könnte auch sein, dass ein Code ausgeführt wird, welcher im Hintergrund die Benutzernamen und Passwörter mitschneidet und, ohne das der Benutzer etwas merkt, diese an einen Server weiterleitet.
+Das \Gls{xssLabel} nutzt Sicherheitslücken auf Webseiten aus, die es erlauben Schadcode auszuführen, welche über die \Gls{urlLabel} mitgegeben werden. Ein Beispiel ist www.meinebank.ch?url=www.hacker.ch. Der Benutzer geht dabei wirklich auf die Seite www.meinebank.ch, wird durch eine Fehler in der Programmierung der Webseite auf auf www.hacker.ch weitergeleitet. Es könnte auch sein, dass ein Code ausgeführt wird, welcher im Hintergrund die Benutzernamen und Passwörter mitschneidet und, ohne das der Benutzer etwas merkt, diese an einen Server weiterleitet.
 
 Solche Adressen sind verdächtig, können jedoch mit den zuvor vorgestellten Techniken unkenntlich gemacht werden.
 
 \subsubsection{Preset Session Attacke}
 Um diese Attacke zu erläutern, muss zuerst etwas ausgeholt werden.
 
-Im Internet werden die Protokolle meistens http und https verwendet. Beide sind statless, was so viel bedeutet, dass zwischen zwei Seitenaufrufen keine Verbindung besteht. Hat man sich auf der ersten Seite eingeloggt, weiss das der Server auf der zweiten Seite nicht mehr. Um eine Verbindung zwischen den beiden Aufrufen zu schaffen, werden heute Sessions verwendet. Dazu wird dem Client (dem Computer des Benutzers) eine SessionID übergeben, die er bei jeder Anfrage mitsendet.
+Im Internet werden meistens die Protokolle http und https verwendet. Beide sind stateless, was so viel bedeutet, dass zwischen zwei Seitenaufrufen keine Verbindung besteht. Hat man sich auf der ersten Seite eingeloggt, weiss das der Server auf der zweiten Seite nicht mehr. Um eine Verbindung zwischen den beiden Aufrufen zu schaffen, werden heute Sessions verwendet. Dazu wird dem Client (dem Computer des Benutzers) eine SessionID übergeben, die er bei jeder Anfrage mitsendet.
 
-Bei der Attacke nutzt der Angreifer ein schlechtes Session Handling einer Webseite aus, indem zum Beispiel eine SessionID über die \Gls{urlLabel} mitgegeben werden kann. Dies kann so aussehen: www.meinebank.ch?sessionid=3V1L5e5510N. Wenn der Benutzer auf den Link klickt und sich auf der Webseite in sein E-Banking einloggt, kann der Angreifer mit einem Aufruf der selben \Gls{urlLabel} die Session übernehmen und hat damit Zugriff auf die Bankgeschäfte des Opfers.
+Bei der Attacke nutzt der Angreifer ein schlechtes Session Handling einer Webseite aus, indem zum Beispiel eine SessionID über die \Gls{urlLabel} mitgegeben werden kann. Dies kann so aussehen: www.meinebank.ch?sessionid=3V1L5e5510N. Wenn der Benutzer auf den Link klickt und sich auf der Webseite in sein E-Banking einloggt, kann der Angreifer mit einem Aufruf der selben \Gls{urlLabel} die Session übernehmen und hat damit Zugriff auf die Bankgeschäfte des Opfers\footcite{NISR-WP-Phishingv101doc_2015-06-29}.
 
 Ein Server des Angreifers kann automatisiert stetig Anfragen an www.meinebank.ch stellen und eine Meldung bekommen, sobald sich ein Opfer eingeloggt hat.
 
 \subsubsection{Hidden Attacke}
-Hidden Attacken führen JavaScript Code auf einer Seite aus, um unbemerkt eine Attacke auszuführen. Der JavaScript Code wird mittels \Gls{urlLabel} oder Man-in-the-Middle eingeschleust. Es gibt verschiedene Gruppen von dieser Attacke.
+Hidden Attacken führen JavaScript Code auf einer Seite aus, um unbemerkt eine Attacke auszuführen. Der JavaScript Code wird mittels \Gls{urlLabel} oder Man-in-the-Middle eingeschleust. Es gibt verschiedene Gruppen von dieser Attacke\footcite{NISR-WP-Phishingv101doc_2015-06-29}.
 \begin{itemize}
 \item Versteckte Frames
 \item Seiteninhalt überschreiben
@@ -149,14 +141,11 @@ Hidden Attacken führen JavaScript Code auf einer Seite aus, um unbemerkt eine A
 
 Wenn \textbf{Seiteninhalte überschrieben} werden, kann das Verhalten der Seite so angepasst werden, dass zum Beispiel Benutzernamen und Passwörter nicht an die gewünschte Stelle, sondern an den Server des Phishers übermittelt werden. Dabei wird darauf geachtet, dass das Aussehen und das Verhalten der Ursprungsseite genau imitiert wird. Somit ist auch dieser Angriff für einen Benutzer nicht sichtbar.
 
-\subsubsection{Observing Customer Data}
-
-
 \subsubsection{Client-side vulnerability}
 Oft ist das Ziel einer Attacke eine Sicherheitslücke eines Browsers. Moderne Browsers können Flash, Java-Programme, Filme, etc. direkt abspielen. Dazu verwenden sie Programme, welche auf dem Computer des Opfers installiert sind. Angreifer können sich Schwachstellen im Browsern oder den installierten Programmen zum Nutzen machen, um zum Beispiel weiteren Schadcode auf dem Rechner zu installieren. 
 
 Internet Explorer hatte die Sicherheitslücke, dass er \Glspl{urlLabel}, welche die Zeichenfolge \%01 enthielten, einfach abschnitt. Besucht der Benutzer die Seite \\
-http://meinebank.ch:ebanking\%01@hack.ch, wurde die ganze \Gls{urlLabel} ausgeführt, jedoch nur der Teil vor dem \%01 angezeigt.
+http://meinebank.ch:ebanking\%01@hack.ch, wurde die ganze \Gls{urlLabel} ausgeführt, jedoch nur der Teil vor dem \%01 angezeigt\footcite{NISR-WP-Phishingv101doc_2015-06-29}.
 
 Eine weitere Sicherheitslücke bestand im Programm Media Player von Microsoft. Über folgenden Code konnte ein Skin für den Player heruntergeladen werden:
 \begin{quote}
@@ -183,7 +172,7 @@ Die gezeigten Sicherheitslücken sind mittlerweile behoben. Jedoch werden stetig
 \subsubsection{Fake Certificates}
 In Phishing E-Mails werden oft Kreditkarten oder andere sensible Daten angefragt. Diese sollten stets verschlüsselt übertragen werden. Dazu gibt es die verschlüsselte Kommunikation über \Gls{httpsLabel}. Es sollte stets überprüft werden, ob eine gültige \Gls{httpsLabel} Verbindung steht, wenn solche Daten eingegeben werden. Oft setzten Angreifer gefälschte Zertifikate ein. Diese werden vom Browser überprüft und meistens als \textit{nicht vertrauenswürdig} eingestuft. Wenn dies jedoch nicht überprüft wird, kann eine Attacke erfolgreich sein.
 
-Nachfolgend wird beschrieben, wie man ein sicheres Zertifikat von einem unsicheren unterscheiden kann\footcite{Phishing_and_Certificates_2015-05-23}. Die gefälschte \Gls{urlLabel} des Angreifers lautet \textit{thebeneficial.blueville.org}. Das Original ist \textit{www.thebeneficial.com}.
+Nachfolgend wird anhand eines Beispieles beschrieben, wie man ein sicheres Zertifikat von einem unsicheren unterscheiden kann\footcite{Phishing_and_Certificates_2015-05-23}. Die gefälschte \Gls{urlLabel} des Angreifers lautet \textit{thebeneficial.blueville.org}. Das Original ist \textit{www.thebeneficial.com}.
 
 \begin{figure}[H]
   \begin{subfigure}[b]{.30\linewidth}
@@ -242,7 +231,7 @@ Die Zertifikate können im Browser angeschaut werden. Nun ein Vergleich eines or
 
 Zertifikate werden von \Glspl{caLabel} ausgestellt. Im Browser sind die vertrauenswürdigen \Glspl{caLabel} gespeichert. Das Zertifikat des Angreifers wurde in dem Fall von keiner \Gls{caLabel} ausgestellt, welchem der Browser vertraut. Deshalb wird es als unsicher betrachtet.
 
-Der Benutzer kann seinem Browser mitteilen, dass er dieser \Gls{caLabel} vertraut. Damit wird das Zertifikat der \Gls{caLabel} als vertrauenswürdig eingestuft und damit auch alle Zertifikate, welche von der \Gls{caLabel} ausgestellt wurden. Dies sollte nur gemacht werden, wenn man dem Absender vertraut. Wenn man nicht aufpasst, kann folgendes passieren:
+Der Benutzer kann seinem Browser mitteilen, dass er dieser \Gls{caLabel} vertraut. So wird das Zertifikat der \Gls{caLabel} als vertrauenswürdig eingestuft und damit auch alle Zertifikate, welche von der \Gls{caLabel} ausgestellt wurden. Dies sollte nur gemacht werden, wenn man dem Absender vertraut. Wenn man nicht aufpasst, kann folgendes passieren:
 
 \begin{figure}[H]
   \centering
@@ -254,9 +243,9 @@ Dieses zuerst unsichere Zertifikat wird nun als sicher angezeigt. Es wird nicht 
 
 \subsection{Nachricht ausarbeiten}
 Abhängig vom gewählten Kommunikationskanal. muss eine Nachricht ausgearbeitet werden, welche die ausgewählte Zielgruppe möglichst stark anspricht.
-Es können die Techniken des Elizitieren, welche im Abschnitt \ref{sec:Elizitieren:techniken} besprochen wurden, angewendet werden, um Vertrauen mit dem Opfer herzustellen.
+Es können die Techniken des Elizitieren, welche im Abschnitt \ref{sec:Elizitieren:techniken} besprochen wurden, angewendet werden, um Vertrauen zum Opfer aufzubauen.
 
-Ein oft verwendetes Thema für ein Phishing E-Mail sind zum Beispiel Kreditkarten-Daten. Die gefälschten Nachrichten erreichen das Opfern im Namen von E-Bay, PayPal, MasterCard oder einem anderen Anbieter. Es wird dabei Druck gemacht, dass die Kreditkarte bald abläuft oder bereits abgelaufen ist und der Account gesperrt werden kann, wenn nichts unternommen wird. 
+Ein oft verwendetes Thema für ein Phishing E-Mail sind zum Beispiel Kreditkarten-Daten. Die gefälschten Nachrichten erreichen das Opfern im Namen von E-Bay, PayPal, MasterCard oder einem anderen Anbieter. Es wird dabei Druck gemacht, dass die Kreditkarte bald abläuft oder bereits abgelaufen ist und der Account gesperrt werden kann, wenn der Besitzer nicht unternimmt.
 
 Andere Phishing Angriffe fälschen Sociale Plattformen wie Facebook, Twitter oder Instagram. Darin wird auf eine Nachricht eines Freundes verwiesen, oder es wird mitgeteilt, dass eine eigene Nachricht an einen Freund nicht übermittelt werden konnte. Dazu hat es einen betrügerischen Link, der auf eine gefälschte Seite der Platform führt.
 
@@ -265,7 +254,7 @@ Wieder andere Phishing E-Mails versuchen die Gier der Menschen anzusprechen, ind
 Es wird auch versucht den Benutzer zum Herunterladen einer Datei zu bewegen. Diese ist entweder über einen Link zu erreichen, oder direkt dem E-Mail angehängt. Meistens handelt es sich dabei um einen Virus, Trojanisches Pferd, oder ähnliches. 
 
 \section{Angriff durchführen}
-Um eine grosse Masse an Nachrichten zu versenden, reicht es nicht aus, wenn der Angreifer sie selber versendet. Um viele Mitteilungen zu versenden, verwenden die Phishers Bot-Netze. Das ist eine Ansammlung von Computern von ahnungslosen Personen. Die Computer sind virenversäucht und können ferngesteuert verwendet werden, um Nachrichten zu versenden.
+Um eine grosse Masse an Nachrichten zu versenden, reicht es nicht aus, wenn der Angreifer sie selber versendet. Statt dessen verwenden die Phishers Bot-Netze. Das ist eine Ansammlung von Computern von ahnungslosen Personen. Die Computer sind virenversäucht und können ferngesteuert verwendet werden, um Nachrichten zu versenden.
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.6\textwidth]{images/botnet.png}
@@ -273,7 +262,7 @@ Um eine grosse Masse an Nachrichten zu versenden, reicht es nicht aus, wenn der 
   \footcite{Botnet__Wikipedia_2015-05-22}
   \label{fig:phishing:angriffdurchfueren:botnetz}
 \end{figure}
-Das Bot-Netz wird über Viren aufgebaut. Wenn das Netz steht, erteilt der Besitzer des Netzes auf Anfrage und Bezahlung eines Phishers den Auftrag massenhaft E-Mails, \Gls{glos:ircLabel}-Nachrichten, oder Kurznachrichten zu versenden. Diese Methode wird \textit{Command \& Control} genannt, da eine Person die verseuchten Computer fernsteuert.
+Das Bot-Netz wird über Viren aufgebaut. Wenn das Netz steht, erteilt der Besitzer des Netzes auf Anfrage und Bezahlung eines Phishers den Auftrag massenhaft E-Mails, \Gls{glos:ircLabel}-Nachrichten, oder Kurznachrichten zu versenden. Diese Methode wird \textit{Command \& Control} genannt, da eine Person die verseuchten Computer fernsteuert\footcite{Botnet__Wikipedia_2015-05-22}.
 
 Benötigt für den Angriff werden noch die Adressen der Zielpersonen. Riesige Listen mit E-Mail Adressen können im Internet heruntergeladen oder gekauft werden. Dazu gibt es einschlägige Internetseiten und Foren. 
 

@@ -16,21 +16,65 @@
   {}
 \endgroup
 
-\entry{Social_Engineering_Wenn_die_Gefahr_im_Anzug_kommt__t3n_2015-04-26}{online}{}
-  \field{title}{Social Engineering: Wenn die Gefahr im Anzug kommt | t3n}
+\entry{5_Ways_to_Tell_Your_Man_is_Lying_2015-05-16}{online}{}
+  \field{sortinit}{5}
+  \field{title}{5 Ways to Tell Your Man is Lying}
   \verb{url}
-  \verb http://t3n.de/news/social-engineering-529713/
+  \verb http://www.kfm.co.za/Articles/2014/06/24/5-ways-to-tell-your-man-is-lyi
+  \verb ng
   \endverb
   \verb{file}
-  \verb :./references/Social Engineering: Wenn die Gefahr im Anzug kommt | t3n.
-  \verb html:html
+  \verb :./references/5 Ways to Tell Your Man is Lying.html:html
   \endverb
-  \field{urlday}{26}
-  \field{urlmonth}{04}
+  \field{urlday}{16}
+  \field{urlmonth}{05}
+  \field{urlyear}{2015}
+\endentry
+
+\entry{Caller_ID_Spoofing_w_Asterisk_Allan_Feid_2015-05-18}{online}{}
+  \field{sortinit}{A}
+  \field{title}{Allan Feid | Caller ID Spoofing w/ Asterisk}
+  \verb{url}
+  \verb http://allanfeid.com/content/caller-id-spoofing-w-asterisk
+  \endverb
+  \verb{file}
+  \verb :./references/Caller ID Spoofing w/ Asterisk | Allan Feid.html:html
+  \endverb
+  \field{urlday}{18}
+  \field{urlmonth}{05}
+  \field{urlyear}{2015}
+\endentry
+
+\entry{Anger_by_kwerfeldein_on_DeviantArt_2015-05-16}{online}{}
+  \field{sortinit}{A}
+  \field{title}{Anger by kwerfeldein on DeviantArt}
+  \verb{url}
+  \verb http://kwerfeldein.deviantart.com/art/Anger-102986132
+  \endverb
+  \verb{file}
+  \verb :./references/Anger by kwerfeldein on DeviantArt.html:html
+  \endverb
+  \field{urlday}{16}
+  \field{urlmonth}{05}
+  \field{urlyear}{2015}
+\endentry
+
+\entry{BasKet_Note_Pads_2015-06-29}{online}{}
+  \field{sortinit}{B}
+  \field{title}{BasKet Note Pads}
+  \verb{url}
+  \verb http://basket.kde.org/
+  \endverb
+  \verb{file}
+  \verb :./references/BasKet Note Pads.html:html
+  \endverb
+  \field{urlday}{29}
+  \field{urlmonth}{06}
   \field{urlyear}{2015}
 \endentry
 
 \entry{Beispiel_fr_einen_Social_Engineering_Angriff_Social_Engineering_-_Manipulation_2015-04-26}{online}{}
+  \field{sortinit}{B}
   \field{title}{Beispiel für einen Social Engineering Angriff | Social
   Engineering - Manipulation}
   \verb{url}
@@ -43,6 +87,95 @@
   \endverb
   \field{urlday}{26}
   \field{urlmonth}{04}
+  \field{urlyear}{2015}
+\endentry
+
+\entry{Botnet__Wikipedia_2015-05-22}{online}{}
+  \field{sortinit}{B}
+  \field{title}{Botnet – Wikipedia}
+  \verb{url}
+  \verb https://de.wikipedia.org/wiki/Botnet
+  \endverb
+  \verb{file}
+  \verb :./references/Botnet – Wikipedia.html:html
+  \endverb
+  \field{urlday}{22}
+  \field{urlmonth}{05}
+  \field{urlyear}{2015}
+\endentry
+
+\entry{Das_Kommunikationsmodell_von_ShannonWeaver_2015-06-29}{online}{}
+  \field{sortinit}{D}
+  \field{title}{Das Kommunikationsmodell von Shannon/Weaver}
+  \verb{url}
+  \verb http://www.mediamanual.at/mediamanual/workshop/kommunikation/bedeutung/
+  \verb modell01.php
+  \endverb
+  \verb{file}
+  \verb :./references/Das Kommunikationsmodell von Shannon/Weaver.html:html
+  \endverb
+  \field{urlday}{29}
+  \field{urlmonth}{06}
+  \field{urlyear}{2015}
+\endentry
+
+\entry{dradis__Freecode_2015-06-29}{online}{}
+  \field{sortinit}{D}
+  \field{title}{dradis – Freecode}
+  \verb{url}
+  \verb http://freecode.com/projects/dradis
+  \endverb
+  \verb{file}
+  \verb :./references/dradis – Freecode.html:html
+  \endverb
+  \field{urlday}{29}
+  \field{urlmonth}{06}
+  \field{urlyear}{2015}
+\endentry
+
+\entry{Ekman_-_Facial_Expressions_Foreign_Language_Flashcards_-_Cramcom_2015-05-16}{online}{}
+  \field{sortinit}{E}
+  \field{title}{Ekman - Facial Expressions Foreign Language Flashcards -
+  Cram.com}
+  \verb{url}
+  \verb http://www.cram.com/flashcards/ekman-facial-expressions-2447700
+  \endverb
+  \verb{file}
+  \verb :./references/Ekman - Facial Expressions Foreign Language Flashcards -
+  \verb Cram.com.html:html
+  \endverb
+  \field{urlday}{16}
+  \field{urlmonth}{05}
+  \field{urlyear}{2015}
+\endentry
+
+\entry{elizitieren__Wiktionary_2015-06-29}{online}{}
+  \field{sortinit}{E}
+  \field{title}{elizitieren – Wiktionary}
+  \verb{url}
+  \verb https://de.wiktionary.org/wiki/elizitieren
+  \endverb
+  \verb{file}
+  \verb :./references/elizitieren – Wiktionary.html:html
+  \endverb
+  \field{urlday}{29}
+  \field{urlmonth}{06}
+  \field{urlyear}{2015}
+\endentry
+
+\entry{Facial_expression_project_-_laughing_girls__Flickr_-_Photo_Sharing_2015-05-16}{online}{}
+  \field{sortinit}{F}
+  \field{title}{Facial expression project - laughing girls | Flickr - Photo
+  Sharing!}
+  \verb{url}
+  \verb https://www.flickr.com/photos/daisykeeling/5462251889
+  \endverb
+  \verb{file}
+  \verb :./references/Facial expression project - laughing girls | Flickr - Pho
+  \verb to Sharing!.html:html
+  \endverb
+  \field{urlday}{16}
+  \field{urlmonth}{05}
   \field{urlyear}{2015}
 \endentry
 
@@ -59,12 +192,14 @@
   }
   \strng{namehash}{HC1}
   \strng{fullhash}{HC1}
+  \field{sortinit}{H}
   \field{booktitle}{Die Kunst des Human Hacking}
   \field{title}{Die Kunst des Human Hacking}
   \field{year}{2011}
 \endentry
 
 \entry{Journal_of_Targeting_Measurement_and_Analysis_for_Marketing_2015-05-14}{online}{}
+  \field{sortinit}{J}
   \field{title}{Journal of Targeting, Measurement and Analysis for Marketing -
   The varying influence of spokesperson's accent in communication
   effectiveness: A comparative study in two different regions of Mexico}
@@ -82,7 +217,52 @@
   \field{urlyear}{2015}
 \endentry
 
+\entry{MELANI_-_Phishing_2015-06-29}{online}{}
+  \field{sortinit}{M}
+  \field{title}{MELANI - Phishing}
+  \verb{url}
+  \verb http://www.melani.admin.ch/themen/00103/00203/index.html?lang=de
+  \endverb
+  \verb{file}
+  \verb :./references/MELANI - Phishing.html:html
+  \endverb
+  \field{urlday}{29}
+  \field{urlmonth}{06}
+  \field{urlyear}{2015}
+\endentry
+
+\entry{Mimik_Gesichtserkennung_Spiegelneuron_und_Amygdala_2015-05-16}{online}{}
+  \field{sortinit}{M}
+  \field{title}{Mimik: Gesichtserkennung, Spiegelneuron und Amygdala}
+  \verb{url}
+  \verb https://www.dasgehirn.info/handeln/mimik-gestik-koerpersprache/gesichte
+  \verb r-lesen-4124
+  \endverb
+  \verb{file}
+  \verb :./references/Mimik: Gesichtserkennung, Spiegelneuron und Amygdala.html
+  \verb :html
+  \endverb
+  \field{urlday}{16}
+  \field{urlmonth}{05}
+  \field{urlyear}{2015}
+\endentry
+
+\entry{Phishing_and_Certificates_2015-05-23}{online}{}
+  \field{sortinit}{P}
+  \field{title}{Phishing and Certificates}
+  \verb{url}
+  \verb http://vecr.ece.villanova.edu/fmp/bsb/all-bsb.html
+  \endverb
+  \verb{file}
+  \verb :./references/Phishing and Certificates.html:html
+  \endverb
+  \field{urlday}{23}
+  \field{urlmonth}{05}
+  \field{urlyear}{2015}
+\endentry
+
 \entry{The_Effect_of_Perceived_Regional_Accents_on_Individual_Economic_Behavior_2015-05-14}{online}{}
+  \field{sortinit}{P}
   \field{title}{PLOS ONE: The Effect of Perceived Regional Accents on
   Individual Economic Behavior: A Lab Experiment on Linguistic Performance,
   Cognitive Ratings and Economic Decisions}
@@ -100,76 +280,23 @@
   \field{urlyear}{2015}
 \endentry
 
-\entry{Anger_by_kwerfeldein_on_DeviantArt_2015-05-16}{online}{}
-  \field{title}{Anger by kwerfeldein on DeviantArt}
+\entry{sb-spf-dkim-dmarc-demystifiedpdf_2015-06-29}{online}{}
+  \field{sortinit}{S}
+  \field{title}{sb-spf-dkim-dmarc-demystified.pdf}
   \verb{url}
-  \verb http://kwerfeldein.deviantart.com/art/Anger-102986132
+  \verb http://www.mcafee.com/us/resources/solution-briefs/sb-spf-dkim-dmarc-de
+  \verb mystified.pdf
   \endverb
   \verb{file}
-  \verb :./references/Anger by kwerfeldein on DeviantArt.html:html
+  \verb :./references/sb-spf-dkim-dmarc-demystified.pdf.html:html
   \endverb
-  \field{urlday}{16}
-  \field{urlmonth}{05}
-  \field{urlyear}{2015}
-\endentry
-
-\entry{Ekman_-_Facial_Expressions_Foreign_Language_Flashcards_-_Cramcom_2015-05-16}{online}{}
-  \field{title}{Ekman - Facial Expressions Foreign Language Flashcards -
-  Cram.com}
-  \verb{url}
-  \verb http://www.cram.com/flashcards/ekman-facial-expressions-2447700
-  \endverb
-  \verb{file}
-  \verb :./references/Ekman - Facial Expressions Foreign Language Flashcards -
-  \verb Cram.com.html:html
-  \endverb
-  \field{urlday}{16}
-  \field{urlmonth}{05}
-  \field{urlyear}{2015}
-\endentry
-
-\entry{Facial_expression_project_-_laughing_girls__Flickr_-_Photo_Sharing_2015-05-16}{online}{}
-  \field{title}{Facial expression project - laughing girls | Flickr - Photo
-  Sharing!}
-  \verb{url}
-  \verb https://www.flickr.com/photos/daisykeeling/5462251889
-  \endverb
-  \verb{file}
-  \verb :./references/Facial expression project - laughing girls | Flickr - Pho
-  \verb to Sharing!.html:html
-  \endverb
-  \field{urlday}{16}
-  \field{urlmonth}{05}
-  \field{urlyear}{2015}
-\endentry
-
-\entry{Versteckte_Botschaften_in_Logos_2015-05-16}{online}{}
-  \field{title}{Versteckte Botschaften in Logos}
-  \verb{url}
-  \verb http://www.logoprofi.com/blog/2012/06/versteckte-botschaften-in-logos/
-  \endverb
-  \verb{file}
-  \verb :./references/Versteckte Botschaften in Logos.html:html
-  \endverb
-  \field{urlday}{16}
-  \field{urlmonth}{05}
-  \field{urlyear}{2015}
-\endentry
-
-\entry{Caller_ID_Spoofing_w_Asterisk_Allan_Feid_2015-05-18}{online}{}
-  \field{title}{Caller ID Spoofing w/ Asterisk | Allan Feid}
-  \verb{url}
-  \verb http://allanfeid.com/content/caller-id-spoofing-w-asterisk
-  \endverb
-  \verb{file}
-  \verb :./references/Caller ID Spoofing w/ Asterisk | Allan Feid.html:html
-  \endverb
-  \field{urlday}{18}
-  \field{urlmonth}{05}
+  \field{urlday}{29}
+  \field{urlmonth}{06}
   \field{urlyear}{2015}
 \endentry
 
 \entry{Simple_Mail_Transfer_Protocol__Wikipedia_2015-05-18}{online}{}
+  \field{sortinit}{S}
   \field{title}{Simple Mail Transfer Protocol – Wikipedia}
   \verb{url}
   \verb https://de.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol
@@ -182,48 +309,53 @@
   \field{urlyear}{2015}
 \endentry
 
-\entry{Phishing_and_Certificates_2015-05-23}{online}{}
-  \field{title}{Phishing and Certificates}
+\entry{Social_Engineering_Wenn_die_Gefahr_im_Anzug_kommt__t3n_2015-04-26}{online}{}
+  \field{sortinit}{S}
+  \field{title}{Social Engineering: Wenn die Gefahr im Anzug kommt | t3n}
   \verb{url}
-  \verb http://vecr.ece.villanova.edu/fmp/bsb/all-bsb.html
+  \verb http://t3n.de/news/social-engineering-529713/
   \endverb
   \verb{file}
-  \verb :./references/Phishing and Certificates.html:html
+  \verb :./references/Social Engineering: Wenn die Gefahr im Anzug kommt | t3n.
+  \verb html:html
   \endverb
-  \field{urlday}{23}
-  \field{urlmonth}{05}
+  \field{urlday}{26}
+  \field{urlmonth}{04}
   \field{urlyear}{2015}
 \endentry
 
-\entry{Botnet__Wikipedia_2015-05-22}{online}{}
-  \field{title}{Botnet – Wikipedia}
+\entry{NISR-WP-Phishingv101doc_2015-06-29}{online}{}
+  \field{sortinit}{T}
+  \field{title}{The Phishing Guide - Understanding \& Preventing Phishing
+  Attacks}
   \verb{url}
-  \verb https://de.wikipedia.org/wiki/Botnet
+  \verb http://www.windowsecurity.com/uplarticle/privacy/NISR-WP-Phishing.pdf
   \endverb
   \verb{file}
-  \verb :./references/Botnet – Wikipedia.html:html
+  \verb :./references/Microsoft Word - NISR-WP-Phishing.v1.01.doc - NISR-WP-Phi
+  \verb shing.pdf.html:html
   \endverb
-  \field{urlday}{22}
-  \field{urlmonth}{05}
+  \field{urlday}{29}
+  \field{urlmonth}{06}
   \field{urlyear}{2015}
 \endentry
 
-\entry{Was_sind_Phishing_emails_2015-05-22}{online}{}
-  \field{title}{Was sind Phishing emails - Alles \"uber Phishing mails |
-  Computerfuzzy.de}
+\entry{Versteckte_Botschaften_in_Logos_2015-05-16}{online}{}
+  \field{sortinit}{V}
+  \field{title}{Versteckte Botschaften in Logos}
   \verb{url}
-  \verb http://www.computerfuzzy.de/phishing-mails-beispiele/
+  \verb http://www.logoprofi.com/blog/2012/06/versteckte-botschaften-in-logos/
   \endverb
   \verb{file}
-  \verb :./references/Was sind Phishing emails - Alles über Phishing mails | C
-  \verb omputerfuzzy.de.html:html
+  \verb :./references/Versteckte Botschaften in Logos.html:html
   \endverb
-  \field{urlday}{22}
+  \field{urlday}{16}
   \field{urlmonth}{05}
   \field{urlyear}{2015}
 \endentry
 
 \entry{Was_ist_Phishinig_2015-05-23}{online}{}
+  \field{sortinit}{W}
   \field{title}{Was ist Phishinig}
   \verb{url}
   \verb https://www.avira.com/de/support-what-is-phishing
@@ -236,31 +368,18 @@
   \field{urlyear}{2015}
 \endentry
 
-\entry{Mimik_Gesichtserkennung_Spiegelneuron_und_Amygdala_2015-05-16}{online}{}
-  \field{title}{Mimik: Gesichtserkennung, Spiegelneuron und Amygdala}
+\entry{Was_sind_Phishing_emails_2015-05-22}{online}{}
+  \field{sortinit}{W}
+  \field{title}{Was sind Phishing emails - Alles \"uber Phishing mails |
+  Computerfuzzy.de}
   \verb{url}
-  \verb https://www.dasgehirn.info/handeln/mimik-gestik-koerpersprache/gesichte
-  \verb r-lesen-4124
+  \verb http://www.computerfuzzy.de/phishing-mails-beispiele/
   \endverb
   \verb{file}
-  \verb :./references/Mimik: Gesichtserkennung, Spiegelneuron und Amygdala.html
-  \verb :html
+  \verb :./references/Was sind Phishing emails - Alles über Phishing mails | C
+  \verb omputerfuzzy.de.html:html
   \endverb
-  \field{urlday}{16}
-  \field{urlmonth}{05}
-  \field{urlyear}{2015}
-\endentry
-
-\entry{5_Ways_to_Tell_Your_Man_is_Lying_2015-05-16}{online}{}
-  \field{title}{5 Ways to Tell Your Man is Lying}
-  \verb{url}
-  \verb http://www.kfm.co.za/Articles/2014/06/24/5-ways-to-tell-your-man-is-lyi
-  \verb ng
-  \endverb
-  \verb{file}
-  \verb :./references/5 Ways to Tell Your Man is Lying.html:html
-  \endverb
-  \field{urlday}{16}
+  \field{urlday}{22}
   \field{urlmonth}{05}
   \field{urlyear}{2015}
 \endentry

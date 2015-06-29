@@ -24,48 +24,46 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: pki-blx.bib
 Database file #2: bib/BibtexDatabase.bib
 Biblatex version: 2.8
-Warning--Version mismatch: biblatex.bst=2.3, biblatex.sty=2.4
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 18 entries,
+You've used 25 entries,
             6047 wiz_defined-function locations,
-            1228 strings with 13569 characters,
-and the built_in function-call counts, 50643 in all, are:
-= -- 1081
-> -- 4362
-< -- 405
-+ -- 3887
-- -- 3833
-* -- 1370
-:= -- 5055
+            1263 strings with 15034 characters,
+and the built_in function-call counts, 75718 in all, are:
+= -- 1596
+> -- 6302
+< -- 712
++ -- 5623
+- -- 5525
+* -- 2419
+:= -- 7495
 add.period$ -- 0
-call.type$ -- 18
-change.case$ -- 51
-chr.to.int$ -- 384
-cite$ -- 34
-duplicate$ -- 4806
-empty$ -- 5054
-format.name$ -- 46
-if$ -- 8093
+call.type$ -- 25
+change.case$ -- 113
+chr.to.int$ -- 586
+cite$ -- 48
+duplicate$ -- 7190
+empty$ -- 7600
+format.name$ -- 49
+if$ -- 12368
 int.to.chr$ -- 0
-int.to.str$ -- 19
+int.to.str$ -- 26
 missing$ -- 0
-newline$ -- 263
-num.names$ -- 52
-pop$ -- 5401
+newline$ -- 381
+num.names$ -- 55
+pop$ -- 7658
 preamble$ -- 1
-purify$ -- 53
+purify$ -- 91
 quote$ -- 0
-skip$ -- 1662
+skip$ -- 2521
 stack$ -- 0
-substring$ -- 1653
-swap$ -- 1512
-text.length$ -- 314
-text.prefix$ -- 0
+substring$ -- 2478
+swap$ -- 2387
+text.length$ -- 578
+text.prefix$ -- 24
 top$ -- 1
-type$ -- 636
-warning$ -- 1
-while$ -- 352
+type$ -- 938
+warning$ -- 0
+while$ -- 573
 width$ -- 0
-write$ -- 244
-(There was 1 warning)
+write$ -- 355

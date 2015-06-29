@@ -21,48 +21,47 @@
 \contentsline {section}{\numberline {4.3}Informationssammlung}{7}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Quellen}{7}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}Datenorganisation}{8}{subsection.4.3.2}
-\contentsline {section}{\numberline {4.4}Kommunikation}{9}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Kommunikationsmodell}{9}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Einsatzzweck im Social Engineering}{10}{subsection.4.4.2}
+\contentsline {section}{\numberline {4.4}Kommunikation}{10}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Kommunikationsmodell}{10}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Einsatzzweck im Social Engineering}{11}{subsection.4.4.2}
 \contentsline {section}{\numberline {4.5}Elizitieren}{11}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Angriff auf die Firma XY Computing}{11}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}Techniken}{12}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.1}Angriff auf die Firma XY Computing}{12}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Techniken}{13}{subsection.4.5.2}
 \contentsline {subsection}{\numberline {4.5.3}Grunds\IeC {\"a}tzliches}{13}{subsection.4.5.3}
-\contentsline {section}{\numberline {4.6}Pretexting}{13}{section.4.6}
-\contentsline {section}{\numberline {4.7}Weitere Techniken}{14}{section.4.7}
+\contentsline {section}{\numberline {4.6}Pretexting}{14}{section.4.6}
+\contentsline {section}{\numberline {4.7}Weitere Techniken}{15}{section.4.7}
 \contentsline {subsection}{\numberline {4.7.1}Mikroexpressionen}{15}{subsection.4.7.1}
 \contentsline {subsection}{\numberline {4.7.2}K\IeC {\"o}rpersprache}{15}{subsection.4.7.2}
 \contentsline {subsection}{\numberline {4.7.3}Framing}{16}{subsection.4.7.3}
 \contentsline {section}{\numberline {4.8}Technische Aspekte}{17}{section.4.8}
-\contentsline {subsection}{\numberline {4.8.1}ID Spoofing}{17}{subsection.4.8.1}
-\contentsline {subsubsection}{\numberline {4.8.1.1}SpoofCard}{17}{subsubsection.4.8.1.1}
-\contentsline {subsubsection}{\numberline {4.8.1.2}SpoofApp}{17}{subsubsection.4.8.1.2}
-\contentsline {subsubsection}{\numberline {4.8.1.3}Asterisk}{17}{subsubsection.4.8.1.3}
-\contentsline {subsubsection}{\numberline {4.8.1.4}E-Mail Absender}{19}{subsubsection.4.8.1.4}
+\contentsline {subsection}{\numberline {4.8.1}ID Spoofing}{18}{subsection.4.8.1}
+\contentsline {subsubsection}{\numberline {4.8.1.1}SpoofCard}{18}{subsubsection.4.8.1.1}
+\contentsline {subsubsection}{\numberline {4.8.1.2}SpoofApp}{18}{subsubsection.4.8.1.2}
+\contentsline {subsubsection}{\numberline {4.8.1.3}Asterisk}{18}{subsubsection.4.8.1.3}
+\contentsline {subsubsection}{\numberline {4.8.1.4}E-Mail Absender}{20}{subsubsection.4.8.1.4}
 \contentsline {section}{\numberline {4.9}Sicherheitsregeln um sich zu sch\IeC {\"u}tzen}{21}{section.4.9}
-\contentsline {chapter}{\numberline {5}Phishing}{22}{chapter.5}
-\contentsline {section}{\numberline {5.1}Informationssammlung und Zielgruppe}{22}{section.5.1}
-\contentsline {section}{\numberline {5.2}Kommunikationsmodell}{23}{section.5.2}
-\contentsline {section}{\numberline {5.3}Angriff vorbereiten}{23}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Angriffsvektoren}{23}{subsection.5.3.1}
-\contentsline {subsubsection}{\numberline {5.3.1.1}Man-in-the-Middle Attacke}{23}{subsubsection.5.3.1.1}
-\contentsline {subsubsection}{\numberline {5.3.1.2}URL-Obfuscation}{24}{subsubsection.5.3.1.2}
-\contentsline {subsubsection}{\numberline {5.3.1.3}Cross-Site-Scripting Attacke}{25}{subsubsection.5.3.1.3}
-\contentsline {subsubsection}{\numberline {5.3.1.4}Preset Session Attacke}{26}{subsubsection.5.3.1.4}
-\contentsline {subsubsection}{\numberline {5.3.1.5}Hidden Attacke}{26}{subsubsection.5.3.1.5}
-\contentsline {subsubsection}{\numberline {5.3.1.6}Observing Customer Data}{26}{subsubsection.5.3.1.6}
-\contentsline {subsubsection}{\numberline {5.3.1.7}Client-side vulnerability}{26}{subsubsection.5.3.1.7}
-\contentsline {subsubsection}{\numberline {5.3.1.8}Fake Certificates}{27}{subsubsection.5.3.1.8}
-\contentsline {subsection}{\numberline {5.3.2}Nachricht ausarbeiten}{29}{subsection.5.3.2}
-\contentsline {section}{\numberline {5.4}Angriff durchf\IeC {\"u}hren}{29}{section.5.4}
-\contentsline {section}{\numberline {5.5}Beispiele}{30}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Facebook}{31}{subsection.5.5.1}
-\contentsline {subsection}{\numberline {5.5.2}Inkasso Firma}{31}{subsection.5.5.2}
-\contentsline {subsection}{\numberline {5.5.3}Paypal (einfach)}{32}{subsection.5.5.3}
-\contentsline {subsection}{\numberline {5.5.4}Paypal (fortgeschritten)}{34}{subsection.5.5.4}
-\contentsline {subsection}{\numberline {5.5.5}DHL}{36}{subsection.5.5.5}
-\contentsline {section}{\numberline {5.6}Sicherheitsregeln um sich zu sch\IeC {\"u}tzen}{36}{section.5.6}
-\contentsline {chapter}{\numberline {6}Schlussfolgerung}{38}{chapter.6}
-\contentsline {section}{\numberline {6.1}Pers\IeC {\"o}nliches}{38}{section.6.1}
-\contentsline {chapter}{\nonumberline Quellenverzeichnis}{39}{chapter*.29}
+\contentsline {chapter}{\numberline {5}Phishing}{23}{chapter.5}
+\contentsline {section}{\numberline {5.1}Informationssammlung und Zielgruppe}{23}{section.5.1}
+\contentsline {section}{\numberline {5.2}Kommunikationsmodell}{24}{section.5.2}
+\contentsline {section}{\numberline {5.3}Angriff vorbereiten}{24}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Angriffsvektoren}{24}{subsection.5.3.1}
+\contentsline {subsubsection}{\numberline {5.3.1.1}Man-in-the-Middle Attacke}{24}{subsubsection.5.3.1.1}
+\contentsline {subsubsection}{\numberline {5.3.1.2}URL-Obfuscation}{25}{subsubsection.5.3.1.2}
+\contentsline {subsubsection}{\numberline {5.3.1.3}Cross-Site-Scripting Attacke}{26}{subsubsection.5.3.1.3}
+\contentsline {subsubsection}{\numberline {5.3.1.4}Preset Session Attacke}{27}{subsubsection.5.3.1.4}
+\contentsline {subsubsection}{\numberline {5.3.1.5}Hidden Attacke}{27}{subsubsection.5.3.1.5}
+\contentsline {subsubsection}{\numberline {5.3.1.6}Client-side vulnerability}{27}{subsubsection.5.3.1.6}
+\contentsline {subsubsection}{\numberline {5.3.1.7}Fake Certificates}{28}{subsubsection.5.3.1.7}
+\contentsline {subsection}{\numberline {5.3.2}Nachricht ausarbeiten}{30}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}Angriff durchf\IeC {\"u}hren}{30}{section.5.4}
+\contentsline {section}{\numberline {5.5}Beispiele}{31}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Facebook}{32}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Inkasso Firma}{32}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {5.5.3}Paypal (einfach)}{33}{subsection.5.5.3}
+\contentsline {subsection}{\numberline {5.5.4}Paypal (fortgeschritten)}{35}{subsection.5.5.4}
+\contentsline {subsection}{\numberline {5.5.5}DHL}{37}{subsection.5.5.5}
+\contentsline {section}{\numberline {5.6}Sicherheitsregeln um sich zu sch\IeC {\"u}tzen}{37}{section.5.6}
+\contentsline {chapter}{\numberline {6}Schlussfolgerung}{39}{chapter.6}
+\contentsline {section}{\numberline {6.1}Pers\IeC {\"o}nliches}{39}{section.6.1}
+\contentsline {chapter}{\nonumberline Quellenverzeichnis}{40}{chapter*.30}
 \contentsfinish
